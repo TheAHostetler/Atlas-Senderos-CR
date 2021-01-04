@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>El Sendero Pacifico Web Map</title>
+  <!-- Add Mapbox GL JS JavaScript file -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+
+  <!-- Add in the Mapbox GL JS CSS file -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet'></link>
+
+  <!-- Add CSS styling info for the map -->
+  <style type="text/css">
+  </style>
+
+  <!-- Adding styling info for page layout by reading in a CSS file -->
+  <link rel="stylesheet" href="styles.css"></link>
+
+</head>
+
+<body>
+  <img id='logo-wtn' src="media/wtn_logo.png" alt="Logo - World Trails Network" width="90px">
+  <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=www.andrewhostetler.weebly.com>A.Hostetler<a/></h1>
+  <br>
+
+  <!-- Add a div to give the map somewhere to go -->
+  <div id='map'></div>
+
+<script>
+  // Add Mapbox access token
+  mapboxgl.accessToken = 'pk.eyJ1Ijoid29ybGR0cmFpbHNuZXQiLCJhIjoiY2tqZGVlenN3MGg1ajJxbnZ6c3FxN25nZCJ9.KRffm2O2O2xAjv37ZsGvmA';
+
+  // Initiate Map
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/worldtrailsnet/ckjhnyyxd6hds19ph2aohmspw'
+  });
+
+  </script>
+
+</body>
+
+</html>
