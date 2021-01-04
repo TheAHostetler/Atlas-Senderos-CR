@@ -19,11 +19,16 @@
 </head>
 
 <body>
-  <img id='logo-wtn' src="media/wtn_logo.png" alt="Logo - World Trails Network" width="90px">
-  <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=www.andrewhostetler.weebly.com>A.Hostetler<a/></h1>
-  <br>
+  <div style='display:flex; align-items: center;' id='header'>
+    <div style='flex:1;'>
+      <img id='logo-wtn' src="media/wtn_logo.png" alt="Logo - World Trails Network" width="90px">
+    </div>
+    <div style='flex:6;'>
+      <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
+    </div>
+  </div>
 
-  <!-- Add a div to give the map somewhere to go -->
+  <!-- Container for map -->
   <div id='map'></div>
 
 <script>
