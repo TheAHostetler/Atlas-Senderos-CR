@@ -47,12 +47,12 @@
     };
 
   // Add geojson - Madre Trail
-    var trails = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/Data/SenderoPacifico_TrailMadre.geojson",function(data){
+    var trails = $.getJSON("data/SenderoPacifico_TrailMadre.geojson",function(data){
       L.geoJson(data,{
         onEachFeature: onEachFeature, color:"green", weight: 5, dashArray: "5,10"
       }).addTo(map);
     });
-    
+
   </script>
 
 </body>
