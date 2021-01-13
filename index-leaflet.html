@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
+  <!-- Add ajax jquery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <!-- Add CSS styling info for the map -->
   <style type="text/css">
   </style>
@@ -32,7 +35,7 @@
   <script>
   var map = L.map('map').setView([10.179884269771113, -84.8930106936106], 11);
 
-  // load tile layer
+  // load a tile layer
     L.tileLayer('https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=043e839ea61f489cb15e6981706e65f2', {
       	attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 17,
@@ -41,10 +44,27 @@
 
     L.control.scale().addTo(map);
 
-  // Add geojson - Madre Trail
+  // Add function to bind popups to each line features - idealy this would be run for each of these imports
+  function onEachFeature(feature, layer) {
+          layer.bindPopup(feature.properties.name);
+      };
+
+  // Add trails to map from geojson
     var trails = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailMadre.geojson",function(data){
+      L.geoJson(data).addTo(map);
+    });
+
+    //Add waypoints to map from geoJSON
+    var trailhead_points = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Waypoints.geojson",function(data){
+
+      //Display trailhead points with icon and popup
       L.geoJson(data,{
-        onEachFeature: onEachFeature, color:"green", weight: 5, dashArray: "5,10"
+        pointToLayer: function(feature,latlng){
+    	  var marker = L.marker(latlng);
+        marker.bindPopup('<b>Name: </b>'+feature.properties.Name+'<br/><br/><b>Object ID: </b>'+feature.properties.OBJECTID+'<br/><br/><b>Date: </b>'+feature.properties.Date);
+        return marker;
+
+        }
       }).addTo(map);
     });
 
