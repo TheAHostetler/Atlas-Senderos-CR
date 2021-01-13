@@ -27,6 +27,12 @@
     <div style='flex:6;margin-left:2%'>
       <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
     </div>
+    <div>
+      <button onclick="setBasemapTopo()">Topo
+      </button>
+      <button onclick="setBasemapSat(satellite)">Satellite
+      </button>
+    </div>
   </div>
 
   <!-- Container for map -->
@@ -35,12 +41,8 @@
   <script>
   var map = L.map('map').setView([10.179884269771113, -84.8930106936106], 11);
 
-  var Satellite = ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'];
-
-  var Topo =  ['https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=043e839ea61f489cb15e6981706e65f2', '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'};
-
   // load a tile layer
-  var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  var basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
   	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
         maxZoom: 17,
         minZoom: 9
@@ -48,18 +50,13 @@
 
     L.control.scale().addTo(map);
 
-  // Add function to bind popups to each line features - idealy this would be run for each of these imports
-  function onEachFeature(feature, layer) {
-          layer.bindPopup(feature.properties.name);
-      };
-
   // Add trails to map from geojson
     var trails = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailMadre.geojson",function(data){
       L.geoJson(data).addTo(map);
     });
 
     //Add waypoints to map from geoJSON
-    var trailhead_points = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Waypoints.geojson",function(data){
+    var waypoints = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Waypoints.geojson",function(data){
 
       //Display trailhead points with icon and popup
       L.geoJson(data,{
@@ -71,6 +68,26 @@
         }
       }).addTo(map);
     });
+
+function setBasemapTopo(){
+  var basemap = L.tileLayer('https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=043e839ea61f489cb15e6981706e65f2', {
+  	attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 17,
+      minZoom: 9
+    }).addTo(map);
+  };
+
+function setBasemapSat(){
+  var basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+        maxZoom: 17,
+        minZoom: 9
+      }).addTo(map);
+  };
+
+var satellite = ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}','Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'];
+
+var topo = ['https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=043e839ea61f489cb15e6981706e65f2','&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'];
 
   </script>
 
