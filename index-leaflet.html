@@ -43,13 +43,13 @@
 
   //Reference Icons
   var icon_circle_orange = L.icon({
-    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-orange',
-    iconSize: [30,30]
+    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-orange.png',
+    iconSize: [20,20]
   });
 
   var icon_circle_blue = L.icon({
-    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-blue',
-    iconSize: [30,30]
+    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-blue.png',
+    iconSize: [13,13]
   });
 
   // load a tile layer
@@ -79,16 +79,13 @@
       }).addTo(map);
     });
 
-    //Add towns to map from geoJSON
-    var waypoints = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_towns.geojson",function(data){
-
     //Add Town points to map from geoJSON
     var towns = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Towns.geojson",function(data){
 
       L.geoJson(data,{
         pointToLayer: function(feature,latlng){
-    	  var marker = L.marker(latlng, {icon: icon_circle_orange});
-        marker.bindPopup('<b>Town name: </b>'+feature.properties.NameNew);
+    	  var marker = L.marker(latlng, {icon: icon_circle_orange, zIndexOffset: 9999});
+        marker.bindPopup('<b>Town Name: </b>'+feature.properties.NameNew);
         return marker;
         }
       }).addTo(map);
