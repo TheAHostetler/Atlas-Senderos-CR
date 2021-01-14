@@ -41,6 +41,17 @@
   <script>
   var map = L.map('map').setView([10.179884269771113, -84.8930106936106], 11);
 
+  //Reference Icons
+  var icon_circle_orange = L.icon({
+    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-orange',
+    iconSize: [30,30]
+  });
+
+  var icon_circle_blue = L.icon({
+    iconUrl: 'https://theahostetler.github.io/El-Sendero-Pacifico/media/icon-circle-blue',
+    iconSize: [30,30]
+  });
+
   // load a tile layer
   var basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
   	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
@@ -61,10 +72,24 @@
       //Display trailhead points with icon and popup
       L.geoJson(data,{
         pointToLayer: function(feature,latlng){
-    	  var marker = L.marker(latlng);
-        marker.bindPopup('<b>Name: </b>'+feature.properties.Name+'<br/><br/><b>Object ID: </b>'+feature.properties.OBJECTID+'<br/><br/><b>Date: </b>'+feature.properties.Date);
+    	  var marker = L.marker(latlng, {icon: icon_circle_blue});
+        marker.bindPopup('<b>Name-Andras: </b>'+feature.properties.NameAndras+'<br/><b>Name-New: </b>'+feature.properties.NameNew+'<br/><b>Name-Esp: </b>'+feature.properties.NameESP+'<br/><b>Type: </b>'+feature.properties.Type);
         return marker;
+        }
+      }).addTo(map);
+    });
 
+    //Add towns to map from geoJSON
+    var waypoints = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_towns.geojson",function(data){
+
+    //Add Town points to map from geoJSON
+    var towns = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Towns.geojson",function(data){
+
+      L.geoJson(data,{
+        pointToLayer: function(feature,latlng){
+    	  var marker = L.marker(latlng, {icon: icon_circle_orange});
+        marker.bindPopup('<b>Town name: </b>'+feature.properties.NameNew);
+        return marker;
         }
       }).addTo(map);
     });
