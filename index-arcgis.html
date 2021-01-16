@@ -37,11 +37,12 @@
       "esri/Map",
       "esri/views/MapView",
       "esri/widgets/BasemapToggle",
-      "esri/widgets/BasemapGallery"
+      "esri/widgets/BasemapGallery",
+      "esri/layers/FeatureLayer",
     ],
 
     //
-      function(Map, MapView, BasemapToggle, BasemapGallery) {
+      function(Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer) {
 
         var map = new Map({
           basemap: "topo-vector"
@@ -73,7 +74,23 @@
 
         view.ui.add(basemapGallery, "bottom-right");
 
+        // Add Sendero Pacifico Madre (main trail) feature layer (line)
+        var sendero_madre = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Madre/FeatureServer"
+        });
+        map.add(sendero_madre);
 
+        // Add Sendero Pacifico waypoints feature layer (points)
+        var sendero_waypoints = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Waypoints/FeatureServer"
+        });
+        map.add(sendero_waypoints);
+
+        // Add Sendero Pacifico towns feature layer (points)
+        var sendero_towns = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Towns/FeatureServer"
+        });
+        map.add(sendero_towns);
       });
 
   </script>
