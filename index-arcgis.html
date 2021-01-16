@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS API for JavaScript Tutorials: Create a Starter App</title>
+
+  <!-- Adding styling info for page layout by reading in a CSS file -->
+  <link rel="stylesheet" href="styles.css"></link>
+
+  <!--Call ArcGIS JS libraries-->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.18/"></script>
+
+</head>
+
+<body>
+
+  <!--Create header div-->
+  <div style='display: flex ; align-items: center;' id='header'>
+    <div style='flex:1;margin-left:1%;margin-right:2%'>
+      <img id='logo-wtn' src="media/WTN_Logo.png" alt="Logo - World Trails Network" width = '100'>
+    </div>
+    <div style='flex:6;margin-left:2%'>
+      <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
+    </div>
+  </div>
+
+  <!--Create map div-->
+  <div id="viewDiv"></div>
+
+  <script>
+
+    //Call modules from ArcGIS
+    require([
+      "esri/Map",
+      "esri/views/MapView",
+      "esri/widgets/BasemapToggle",
+      "esri/widgets/BasemapGallery"
+    ],
+
+    //
+      function(Map, MapView, BasemapToggle, BasemapGallery) {
+
+        var map = new Map({
+          basemap: "topo-vector"
+        });
+
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          center: [-84.8930106936106, 10.179884269771113], // longitude, latitude
+        zoom: 11
+        });
+
+        var basemapToggle = new BasemapToggle({
+          view: view, secondMap: "satellite"
+        });
+
+        view.ui.add(basemapToggle,"top-right");
+
+        var basemapGallery = new BasemapGallery({
+          view: view,
+          source: {
+            portal: {
+              url: "https://www.arcgis.com",
+              //*** ADD ***//
+              useVectorBasemaps: true // Load raster tile basemaps
+            }
+          }
+        });
+
+        view.ui.add(basemapGallery, "bottom-right");
+
+
+      });
+
+  </script>
+
+</body>
+</html>

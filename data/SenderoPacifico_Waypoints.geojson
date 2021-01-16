@@ -1,1 +1,2601 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-84.802401624999959,10.246809656000039,1215.9440999999933]},"properties":{"OBJECTID":1,"Name":"0011","Date":"18-FEB-20 21:04:31"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[-84.801224134999984,10.286296634000053,1127.5034000000014]},"properties":{"OBJECTID":2,"Name":"001BellaTica","Date":"17-FEB-20 16:43:56"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[-84.798044627999957,10.282341884000061,1113.8046999999933]},"properties":{"OBJECTID":3,"Name":"CIEE Campus","Date":"17-FEB-20 18:45:18"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-84.79776131899996,10.277351886000076,1009.9829000000027]},"properties":{"OBJECTID":4,"Name":"003Junctioninf","Date":"17-FEB-20 21:57:46"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[-84.79747197599994,10.276677813000049,1031.1321000000025]},"properties":{"OBJECTID":5,"Name":"004Fieldstatio","Date":"17-FEB-20 22:41:43"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[-84.797888891999946,10.276126284000043,1026.0852000000014]},"properties":{"OBJECTID":6,"Name":"005cottagetral","Date":"17-FEB-20 22:57:54"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[-84.798487191999982,10.273805922000065,1164.7541999999958]},"properties":{"OBJECTID":7,"Name":"006VIEW","Date":"17-FEB-20 23:30:24"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[-84.79853806999995,10.273757055000033,1161.6298999999999]},"properties":{"OBJECTID":8,"Name":"007Junct","Date":"17-FEB-20 23:31:50"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[-84.800496166999949,10.273966352000059,1103.2302000000054]},"properties":{"OBJECTID":9,"Name":"008Junct","Date":"17-FEB-20 23:46:21"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-84.799598799999956,10.273770886000023,1139.0390999999945]},"properties":{"OBJECTID":10,"Name":"008Tree","Date":"17-FEB-20 23:37:59"}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[-84.799570552999967,10.275022974000024,1067.1812000000064]},"properties":{"OBJECTID":11,"Name":"009View","Date":"17-FEB-20 23:52:00"}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[-84.799474663999945,10.275126491000037,1063.8163999999961]},"properties":{"OBJECTID":12,"Name":"010ViewDONVIRG","Date":"17-FEB-20 23:53:25"}},{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[-84.797723264999945,10.27576812500007,1018.3947999999946]},"properties":{"OBJECTID":13,"Name":"011JUNCTSENDDU","Date":"18-FEB-20 0:10:59"}},{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[-84.797166035999965,10.27619962600005,1032.5739999999932]},"properties":{"OBJECTID":14,"Name":"012Lodgestlfs","Date":"18-FEB-20 16:28:30"}},{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[-84.815552411999988,10.189282810000066,435.35950000000594]},"properties":{"OBJECTID":15,"Name":"Bdgthrough","Date":"19-FEB-20 21:43:39"}},{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[-84.826505714999939,10.216547213000069,601.90670000000682]},"properties":{"OBJECTID":16,"Name":"bees","Date":"19-FEB-20 16:22:06"}},{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[-84.822640232999959,10.185182719000068,348.84159999999974]},"properties":{"OBJECTID":17,"Name":"Brdghouses","Date":"20-FEB-20 13:45:21"}},{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[-84.844466456999953,10.193597646000057,0]},"properties":{"OBJECTID":18,"Name":"Brdgtmp","Date":"20-FEB-20 16:33:13"}},{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[-84.817231222999965,10.229591969000069,0]},"properties":{"OBJECTID":19,"Name":"Bridgeveracruz","Date":"19-FEB-20 15:09:03"}},{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[-84.88095866499998,10.154247377000047,229.39860000000044]},"properties":{"OBJECTID":20,"Name":"Cemetery","Date":"20-FEB-20 11:58:23"}},{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[-84.980508852999947,10.13463288500003,37.857300000003306]},"properties":{"OBJECTID":21,"Name":"Coy","Date":"21-FEB-20 12:58:16"}},{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[-84.84327387999997,10.195245612000065,317.35860000000685]},"properties":{"OBJECTID":22,"Name":"Davidws","Date":"20-FEB-20 15:46:17"}},{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[-84.843994304999967,10.197046716000045,316.15700000000652]},"properties":{"OBJECTID":23,"Name":"EoHousing","Date":"20-FEB-20 16:23:26"}},{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[-84.823078857999974,10.210842909000064,493.2783999999956]},"properties":{"OBJECTID":24,"Name":"Exit","Date":"19-FEB-20 17:07:20"}},{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[-84.82519679699999,10.216232054000045,596.61960000000545]},"properties":{"OBJECTID":25,"Name":"Farm","Date":"19-FEB-20 16:24:56"}},{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[-84.920605485999943,10.126229692000038,113.32030000000668]},"properties":{"OBJECTID":26,"Name":"Farmleft","Date":"21-FEB-20 9:38:13"}},{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[-84.825397626999973,10.200888561000056,404.83779999999388]},"properties":{"OBJECTID":27,"Name":"Fenceund Road","Date":"19-FEB-20 18:28:14"}},{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[-84.823937499999943,10.203992128000039,426.94800000000396]},"properties":{"OBJECTID":28,"Name":"Fenceunder","Date":"19-FEB-20 18:14:31"}},{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[-84.795944541999972,10.255206646000033,1340.4337999999989]},"properties":{"OBJECTID":29,"Name":"Gate","Date":"18-FEB-20 19:41:15"}},{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[-84.795933896999941,10.253987247000055,1310.8735000000015]},"properties":{"OBJECTID":30,"Name":"Gate F","Date":"18-FEB-20 19:47:23"}},{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[-84.825384802999963,10.215965677000042,597.82099999999627]},"properties":{"OBJECTID":31,"Name":"Gate K","Date":"19-FEB-20 16:24:12"}},{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[-84.799829050999961,10.250058481000053,1220.9909999999945]},"properties":{"OBJECTID":32,"Name":"Gate R","Date":"18-FEB-20 20:50:16"}},{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[-84.801797288999978,10.248462735000032,1206.571299999996]},"properties":{"OBJECTID":33,"Name":"Gatee","Date":"18-FEB-20 20:58:42"}},{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[-84.789528194999946,10.264953543000047,1305.3459000000003]},"properties":{"OBJECTID":34,"Name":"Gateinfo","Date":"18-FEB-20 18:06:20"}},{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[-84.812498213999959,10.235570110000026,809.30929999999353]},"properties":{"OBJECTID":35,"Name":"Gatewidetrack","Date":"18-FEB-20 22:23:59"}},{"type":"Feature","id":36,"geometry":{"type":"Point","coordinates":[-84.802182437999988,10.24711123700007,1212.0988999999972]},"properties":{"OBJECTID":36,"Name":"Gatewire","Date":"18-FEB-20 21:02:35"}},{"type":"Feature","id":37,"geometry":{"type":"Point","coordinates":[-84.910215446999985,10.146536697000045,154.65660000000207]},"properties":{"OBJECTID":37,"Name":"Hghwy","Date":"21-FEB-20 8:22:50"}},{"type":"Feature","id":38,"geometry":{"type":"Point","coordinates":[-84.798768069999937,10.25172983300007,0]},"properties":{"OBJECTID":38,"Name":"Hill","Date":"18-FEB-20 20:31:51"}},{"type":"Feature","id":39,"geometry":{"type":"Point","coordinates":[-84.830674537999982,10.187051967000059,348.60120000000461]},"properties":{"OBJECTID":39,"Name":"Homestaybf","Date":"20-FEB-20 14:56:58"}},{"type":"Feature","id":40,"geometry":{"type":"Point","coordinates":[-84.999940702999936,10.105355401000054,28.725000000005821]},"properties":{"OBJECTID":40,"Name":"Hostel","Date":"21-FEB-20 16:34:44"}},{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[-84.821810088999939,10.185616650000043,350.52379999999539]},"properties":{"OBJECTID":41,"Name":"Houseleft","Date":"20-FEB-20 13:43:41"}},{"type":"Feature","id":42,"geometry":{"type":"Point","coordinates":[-84.924046173999955,10.130925821000062,68.378899999996065]},"properties":{"OBJECTID":42,"Name":"Hs2","Date":"21-FEB-20 9:52:02"}},{"type":"Feature","id":43,"geometry":{"type":"Point","coordinates":[-84.895529094999972,10.148748681000029,239.01170000000275]},"properties":{"OBJECTID":43,"Name":"Hsgatepath","Date":"21-FEB-20 7:31:08"}},{"type":"Feature","id":44,"geometry":{"type":"Point","coordinates":[-84.809780967999984,10.30508198800004,0]},"properties":{"OBJECTID":44,"Name":"InstMonteverde","Date":""}},{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[-84.79704349299999,10.272522988000048,1177.2514999999985]},"properties":{"OBJECTID":45,"Name":"Jnctmap","Date":"18-FEB-20 17:14:44"}},{"type":"Feature","id":46,"geometry":{"type":"Point","coordinates":[-84.798702438999953,10.273282221000045,1166.6768000000011]},"properties":{"OBJECTID":46,"Name":"Jnctmark","Date":"18-FEB-20 17:09:46"}},{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[-84.881515977999982,10.158225261000041,232.5228000000061]},"properties":{"OBJECTID":47,"Name":"Jnctn Sarmient","Date":"20-FEB-20 11:45:49"}},{"type":"Feature","id":48,"geometry":{"type":"Point","coordinates":[-84.812400731999958,10.235165600000073,801.37870000000112]},"properties":{"OBJECTID":48,"Name":"Lodgevc","Date":"18-FEB-20 22:25:15"}},{"type":"Feature","id":49,"geometry":{"type":"Point","coordinates":[-84.82541036799995,10.200389586000028,406.27980000000389]},"properties":{"OBJECTID":49,"Name":"pathgate","Date":"19-FEB-20 18:53:24"}},{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[-84.821643619999975,10.214376733000051,536.20600000000559]},"properties":{"OBJECTID":50,"Name":"Pathstart","Date":"19-FEB-20 16:37:47"}},{"type":"Feature","id":51,"geometry":{"type":"Point","coordinates":[-84.845735392999984,10.19127921200004,330.09579999999551]},"properties":{"OBJECTID":51,"Name":"Rdjnct","Date":"20-FEB-20 16:37:28"}},{"type":"Feature","id":52,"geometry":{"type":"Point","coordinates":[-84.82930057699997,10.21486094200003,628.1024999999936]},"properties":{"OBJECTID":52,"Name":"Roadjnct","Date":"19-FEB-20 16:01:21"}},{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[-84.84429228099998,10.192621741000039,307.02439999999478]},"properties":{"OBJECTID":53,"Name":"Roadstart","Date":"20-FEB-20 16:34:03"}},{"type":"Feature","id":54,"geometry":{"type":"Point","coordinates":[-84.954021200999989,10.124435378000044,90.729399999996531]},"properties":{"OBJECTID":54,"Name":"Roadx","Date":"21-FEB-20 12:09:27"}},{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[-84.92509139699996,10.131714977000058,65.975699999995413]},"properties":{"OBJECTID":55,"Name":"Rvr x","Date":"21-FEB-20 10:01:01"}},{"type":"Feature","id":56,"geometry":{"type":"Point","coordinates":[-84.924522684999943,10.130882151000037,66.216100000005099]},"properties":{"OBJECTID":56,"Name":"Rvrbed","Date":"21-FEB-20 9:54:16"}},{"type":"Feature","id":57,"geometry":{"type":"Point","coordinates":[-84.819576059999974,10.223562196000046,0]},"properties":{"OBJECTID":57,"Name":"Sanantonio?","Date":"19-FEB-20 15:43:40"}},{"type":"Feature","id":58,"geometry":{"type":"Point","coordinates":[-84.791154032999941,10.281117959000028,0]},"properties":{"OBJECTID":58,"Name":"Finca Eco - Zelmis Pizza","Date":""}},{"type":"Feature","id":59,"geometry":{"type":"Point","coordinates":[-84.881396535999954,10.156995971000072,236.12780000000203]},"properties":{"OBJECTID":59,"Name":"School","Date":"20-FEB-20 11:54:30"}},{"type":"Feature","id":60,"geometry":{"type":"Point","coordinates":[-84.884639745999948,10.142539116000023,264.48630000000412]},"properties":{"OBJECTID":60,"Name":"School AccomLC","Date":"20-FEB-20 12:33:26"}},{"type":"Feature","id":61,"geometry":{"type":"Point","coordinates":[-85.002322922999952,10.106138773000055,28.244300000005751]},"properties":{"OBJECTID":61,"Name":"Shop","Date":"21-FEB-20 16:29:29"}},{"type":"Feature","id":62,"geometry":{"type":"Point","coordinates":[-84.843191401999945,10.195730338000033,319.28130000000237]},"properties":{"OBJECTID":62,"Name":"Shopsodadonpat","Date":"20-FEB-20 15:59:55"}},{"type":"Feature","id":63,"geometry":{"type":"Point","coordinates":[-84.843345377999981,10.197426835000044,322.64579999999842]},"properties":{"OBJECTID":63,"Name":"ShopSuprm","Date":"20-FEB-20 16:02:41"}},{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[-84.797886879999965,10.259734215000037,1382.7314000000042]},"properties":{"OBJECTID":64,"Name":"Sign G","Date":"18-FEB-20 18:48:30"}},{"type":"Feature","id":65,"geometry":{"type":"Point","coordinates":[-84.815841000999967,10.185824521000029,449.77920000000449]},"properties":{"OBJECTID":65,"Name":"Starosa","Date":"19-FEB-20 21:51:34"}},{"type":"Feature","id":66,"geometry":{"type":"Point","coordinates":[-84.821574054999985,10.214583334000054,536.05680000000575]},"properties":{"OBJECTID":66,"Name":"Streamx","Date":"19-FEB-20 16:36:54"}},{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":[-84.824618026999985,10.21662198000007,599.50340000000142]},"properties":{"OBJECTID":67,"Name":"Thrghbldg","Date":"19-FEB-20 16:26:22"}},{"type":"Feature","id":68,"geometry":{"type":"Point","coordinates":[-84.797805491999952,10.259496421000051,1391.1428000000014]},"properties":{"OBJECTID":68,"Name":"Top","Date":"18-FEB-20 18:46:15"}},{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[-84.82339695099995,10.206545675000029,456.02760000000126]},"properties":{"OBJECTID":69,"Name":"Tree","Date":"19-FEB-20 17:48:40"}},{"type":"Feature","id":70,"geometry":{"type":"Point","coordinates":[-84.819142631999966,10.196881928000039,526.92440000000352]},"properties":{"OBJECTID":70,"Name":"Treeclimbfence","Date":"19-FEB-20 19:33:35"}},{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[-84.796691201999977,10.271115163000047,1221.4713999999949]},"properties":{"OBJECTID":71,"Name":"View","Date":"18-FEB-20 17:23:04"}},{"type":"Feature","id":72,"geometry":{"type":"Point","coordinates":[-84.795934566999961,10.270396918000074,1239.0155999999988]},"properties":{"OBJECTID":72,"Name":"Vw1","Date":"18-FEB-20 17:25:40"}},{"type":"Feature","id":73,"geometry":{"type":"Point","coordinates":[-84.794609304999938,10.267000236000058,1295.0117000000027]},"properties":{"OBJECTID":73,"Name":"Vw1a","Date":"18-FEB-20 17:38:55"}},{"type":"Feature","id":74,"geometry":{"type":"Point","coordinates":[-84.791254028999958,10.263235671000075,1350.5276000000013]},"properties":{"OBJECTID":74,"Name":"Vw1b","Date":"18-FEB-20 18:21:07"}},{"type":"Feature","id":75,"geometry":{"type":"Point","coordinates":[-84.900892087999978,10.148583977000044,292.12410000000091]},"properties":{"OBJECTID":75,"Name":"Vw2","Date":"21-FEB-20 7:47:59"}},{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[-84.796669575999942,10.257438999000044,0]},"properties":{"OBJECTID":76,"Name":"Vwend","Date":"18-FEB-20 19:33:29"}},{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[-84.79609910399995,10.25389588400003,1301.5007000000041]},"properties":{"OBJECTID":77,"Name":"Vww","Date":"18-FEB-20 19:49:15"}},{"type":"Feature","id":78,"geometry":{"type":"Point","coordinates":[-84.817982576999952,10.189444665000053,388.01489999999467]},"properties":{"OBJECTID":78,"Name":"Waterfall","Date":"19-FEB-20 20:22:28"}},{"type":"Feature","id":79,"geometry":{"type":"Point","coordinates":[-84.941461253999989,10.134236002000023,103.70720000000438]},"properties":{"OBJECTID":79,"Name":"Widertrack","Date":"21-FEB-20 11:20:09"}},{"type":"Feature","id":80,"geometry":{"type":"Point","coordinates":[-84.823866839999937,10.204175944000042,394.0231000000058]},"properties":{"OBJECTID":80,"Name":"X00","Date":"19-FEB-20 18:12:01"}},{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[-84.825578256999961,10.200486565000062,406.0393999999942]},"properties":{"OBJECTID":81,"Name":"X000","Date":"19-FEB-20 18:52:34"}},{"type":"Feature","id":82,"geometry":{"type":"Point","coordinates":[-84.814728553999942,10.192327788000057,448.0969000000041]},"properties":{"OBJECTID":82,"Name":"X0000","Date":"19-FEB-20 20:07:09"}},{"type":"Feature","id":83,"geometry":{"type":"Point","coordinates":[-84.823521421999942,10.210127765000038,485.58789999999863]},"properties":{"OBJECTID":83,"Name":"x05","Date":"19-FEB-20 17:26:47"}},{"type":"Feature","id":84,"geometry":{"type":"Point","coordinates":[-84.823048179999944,10.209053792000077,478.13779999999679]},"properties":{"OBJECTID":84,"Name":"X06","Date":"19-FEB-20 17:30:58"}},{"type":"Feature","id":85,"geometry":{"type":"Point","coordinates":[-84.824278307999975,10.202741213000024,416.61389999999665]},"properties":{"OBJECTID":85,"Name":"X07","Date":"19-FEB-20 18:19:50"}},{"type":"Feature","id":86,"geometry":{"type":"Point","coordinates":[-84.825254044999951,10.201183269000069,404.59750000000349]},"properties":{"OBJECTID":86,"Name":"X08","Date":"19-FEB-20 18:26:24"}},{"type":"Feature","id":87,"geometry":{"type":"Point","coordinates":[-84.821360483999968,10.213173749000021,516.59020000000601]},"properties":{"OBJECTID":87,"Name":"X2","Date":"19-FEB-20 16:46:32"}},{"type":"Feature","id":88,"geometry":{"type":"Point","coordinates":[-84.822347200999957,10.212182170000062,504.81410000000324]},"properties":{"OBJECTID":88,"Name":"X3","Date":"19-FEB-20 16:59:45"}},{"type":"Feature","id":89,"geometry":{"type":"Point","coordinates":[-84.82282522099996,10.211036112000045,494.72049999999581]},"properties":{"OBJECTID":89,"Name":"X4 Left","Date":"19-FEB-20 17:05:00"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.802401624999959,
+          10.246809656000039,
+          1215.9440999999933
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "NameAndras": "0011",
+        "Date": "18-FEB-20 21:04:31",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.801224134999984,
+          10.286296634000053,
+          1127.5034000000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "NameAndras": "001BellaTica",
+        "Date": "17-FEB-20 16:43:56",
+        "Edits": null,
+        "NameNew": "Finca Bella Tica",
+        "Type": "Lodging, Attraction",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.798044627999957,
+          10.282341884000061,
+          1113.8046999999933
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "NameAndras": "CIEE Campus",
+        "Date": "17-FEB-20 18:45:18",
+        "Edits": null,
+        "NameNew": "CIEE Campus",
+        "Type": "Education, Attraction",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79776131899996,
+          10.277351886000076,
+          1009.9829000000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "NameAndras": "003Junctioninf",
+        "Date": "17-FEB-20 21:57:46",
+        "Edits": null,
+        "NameNew": "Finca Virdana",
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79747197599994,
+          10.276677813000049,
+          1031.1321000000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "NameAndras": "004Fieldstatio",
+        "Date": "17-FEB-20 22:41:43",
+        "Edits": null,
+        "NameNew": "San Luis Field Station",
+        "Type": "Attraction",
+        "NameESP": "Estadio",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797888891999946,
+          10.276126284000043,
+          1026.0852000000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "NameAndras": "005cottagetral",
+        "Date": "17-FEB-20 22:57:54",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.798487191999982,
+          10.273805922000065,
+          1164.7541999999958
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "NameAndras": "006VIEW",
+        "Date": "17-FEB-20 23:30:24",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79853806999995,
+          10.273757055000033,
+          1161.6298999999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "NameAndras": "007Junct",
+        "Date": "17-FEB-20 23:31:50",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.800496166999949,
+          10.273966352000059,
+          1103.2302000000054
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "NameAndras": "008Junct",
+        "Date": "17-FEB-20 23:46:21",
+        "Edits": null,
+        "NameNew": "",
+        "Type": "",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.799598799999956,
+          10.273770886000023,
+          1139.0390999999945
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "NameAndras": "008Tree",
+        "Date": "17-FEB-20 23:37:59",
+        "Edits": null,
+        "NameNew": "Beautiful tree",
+        "Type": "Attractionc",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.799474663999945,
+          10.275126491000037,
+          1063.8163999999961
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "NameAndras": "010ViewDONVIRG",
+        "Date": "17-FEB-20 23:53:25",
+        "Edits": null,
+        "NameNew": "ViewDon Virjilio",
+        "Type": "View",
+        "NameESP": "Mirador Don Virjilio",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797723264999945,
+          10.27576812500007,
+          1018.3947999999946
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "NameAndras": "011JUNCTSENDDU",
+        "Date": "18-FEB-20 0:10:59",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797166035999965,
+          10.27619962600005,
+          1032.5739999999932
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "NameAndras": "012Lodgestlfs",
+        "Date": "18-FEB-20 16:28:30",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.815552411999988,
+          10.189282810000066,
+          435.35950000000594
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "NameAndras": "Bdgthrough",
+        "Date": "19-FEB-20 21:43:39",
+        "Edits": null,
+        "NameNew": "Trail to Waterfall",
+        "Type": "Trail Int",
+        "NameESP": "Sendero Catarata",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.826505714999939,
+          10.216547213000069,
+          601.90670000000682
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "NameAndras": "bees",
+        "Date": "19-FEB-20 16:22:06",
+        "Edits": null,
+        "NameNew": "Bees",
+        "Type": "Warning",
+        "NameESP": "Abejas",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.822640232999959,
+          10.185182719000068,
+          348.84159999999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "NameAndras": "Brdghouses",
+        "Date": "20-FEB-20 13:45:21",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.844466456999953,
+          10.193597646000057,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "NameAndras": "Brdgtmp",
+        "Date": "20-FEB-20 16:33:13",
+        "Edits": null,
+        "NameNew": "Seasonal bridge, only during dry season",
+        "Type": "water crossing, bridge",
+        "NameESP": "Puente",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.817231222999965,
+          10.229591969000069,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "NameAndras": "Bridgeveracruz",
+        "Date": "19-FEB-20 15:09:03",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Bridge, Water Crossing",
+        "NameESP": "Puente Vera Cruz",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.88095866499998,
+          10.154247377000047,
+          229.39860000000044
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "NameAndras": "Cemetery",
+        "Date": "20-FEB-20 11:58:23",
+        "Edits": null,
+        "NameNew": "cemetery",
+        "Type": "reference",
+        "NameESP": null,
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.980508852999947,
+          10.13463288500003,
+          37.857300000003306
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "NameAndras": "Coy",
+        "Date": "21-FEB-20 12:58:16",
+        "Edits": null,
+        "NameNew": "La Montana de Coyolito",
+        "Type": "Town",
+        "NameESP": "La Montana de Coyolito",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.84327387999997,
+          10.195245612000065,
+          317.35860000000685
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "NameAndras": "Davidws",
+        "Date": "20-FEB-20 15:46:17",
+        "Edits": null,
+        "NameNew": "Sculpture Studio",
+        "Type": "Attraction, Shop",
+        "NameESP": "Esculturas David Viallalobos",
+        "Include": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.843994304999967,
+          10.197046716000045,
+          316.15700000000652
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "NameAndras": "EoHousing",
+        "Date": "20-FEB-20 16:23:26",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "",
+        "NameESP": "",
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.823078857999974,
+          10.210842909000064,
+          493.2783999999956
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "NameAndras": "Exit",
+        "Date": "19-FEB-20 17:07:20",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82519679699999,
+          10.216232054000045,
+          596.61960000000545
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "NameAndras": "Farm",
+        "Date": "19-FEB-20 16:24:56",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.920605485999943,
+          10.126229692000038,
+          113.32030000000668
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "NameAndras": "Farmleft",
+        "Date": "21-FEB-20 9:38:13",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.825397626999973,
+          10.200888561000056,
+          404.83779999999388
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "NameAndras": "Fenceund Road",
+        "Date": "19-FEB-20 18:28:14",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.823937499999943,
+          10.203992128000039,
+          426.94800000000396
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "NameAndras": "Fenceunder",
+        "Date": "19-FEB-20 18:14:31",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.795944541999972,
+          10.255206646000033,
+          1340.4337999999989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "NameAndras": "Gate",
+        "Date": "18-FEB-20 19:41:15",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.795933896999941,
+          10.253987247000055,
+          1310.8735000000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "NameAndras": "Gate F",
+        "Date": "18-FEB-20 19:47:23",
+        "Edits": null,
+        "NameNew": "Entrance to BEN",
+        "Type": "Trail Int",
+        "NameESP": "Entrada BENc",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.825384802999963,
+          10.215965677000042,
+          597.82099999999627
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "NameAndras": "Gate K",
+        "Date": "19-FEB-20 16:24:12",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.799829050999961,
+          10.250058481000053,
+          1220.9909999999945
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "NameAndras": "Gate R",
+        "Date": "18-FEB-20 20:50:16",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.801797288999978,
+          10.248462735000032,
+          1206.571299999996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "NameAndras": "Gatee",
+        "Date": "18-FEB-20 20:58:42",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.789528194999946,
+          10.264953543000047,
+          1305.3459000000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "NameAndras": "Gateinfo",
+        "Date": "18-FEB-20 18:06:20",
+        "Edits": null,
+        "NameNew": "BEN Entrance",
+        "Type": "Trail Intc",
+        "NameESP": "Entrada a BEN Bosque Eterno de los Ninos",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.812498213999959,
+          10.235570110000026,
+          809.30929999999353
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "NameAndras": "Gatewidetrack",
+        "Date": "18-FEB-20 22:23:59",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Road Int",
+        "NameESP": "Albergue Vera Cruz",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.802182437999988,
+          10.24711123700007,
+          1212.0988999999972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "NameAndras": "Gatewire",
+        "Date": "18-FEB-20 21:02:35",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.910215446999985,
+          10.146536697000045,
+          154.65660000000207
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "NameAndras": "Hghwy",
+        "Date": "21-FEB-20 8:22:50",
+        "Edits": null,
+        "NameNew": "highway 1",
+        "Type": "Rd Int",
+        "NameESP": "",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.798768069999937,
+          10.25172983300007,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "NameAndras": "Hill",
+        "Date": "18-FEB-20 20:31:51",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Peak, Attractionc",
+        "NameESP": "Cerro de Melvin",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.830674537999982,
+          10.187051967000059,
+          348.60120000000461
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "NameAndras": "Homestaybf",
+        "Date": "20-FEB-20 14:56:58",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.999940702999936,
+          10.105355401000054,
+          28.725000000005821
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "NameAndras": "Hostel",
+        "Date": "21-FEB-20 16:34:44",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Lodging",
+        "NameESP": "Associacion de Mujeres Mariposas del Golfo",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.821810088999939,
+          10.185616650000043,
+          350.52379999999539
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "NameAndras": "Houseleft",
+        "Date": "20-FEB-20 13:43:41",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "No"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.924046173999955,
+          10.130925821000062,
+          68.378899999996065
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "NameAndras": "Hs2",
+        "Date": "21-FEB-20 9:52:02",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.895529094999972,
+          10.148748681000029,
+          239.01170000000275
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "NameAndras": "Hsgatepath",
+        "Date": "21-FEB-20 7:31:08",
+        "Edits": null,
+        "NameNew": "Trail Junction",
+        "Type": "Trail Int",
+        "NameESP": "Trail",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.809527890999959,
+          10.305606066000053,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "NameAndras": "InstMonteverde",
+        "Date": "",
+        "Edits": "Move to green building",
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79704349299999,
+          10.272522988000048,
+          1177.2514999999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "NameAndras": "Jnctmap",
+        "Date": "18-FEB-20 17:14:44",
+        "Edits": null,
+        "NameNew": "Camino Buen Amigo",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.798702438999953,
+          10.273282221000045,
+          1166.6768000000011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "NameAndras": "Jnctmark",
+        "Date": "18-FEB-20 17:09:46",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.881515977999982,
+          10.158225261000041,
+          232.5228000000061
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "NameAndras": "Jnctn Sarmient",
+        "Date": "20-FEB-20 11:45:49",
+        "Edits": null,
+        "NameNew": "Sarmiento",
+        "Type": "Town",
+        "NameESP": "Sarmiento",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.812400731999958,
+          10.235165600000073,
+          801.37870000000112
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "NameAndras": "Lodgevc",
+        "Date": "18-FEB-20 22:25:15",
+        "Edits": null,
+        "NameNew": "Micho Hut",
+        "Type": "Lodging",
+        "NameESP": "Albergue de Micho",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82541036799995,
+          10.200389586000028,
+          406.27980000000389
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "NameAndras": "pathgate",
+        "Date": "19-FEB-20 18:53:24",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.821643619999975,
+          10.214376733000051,
+          536.20600000000559
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "NameAndras": "Pathstart",
+        "Date": "19-FEB-20 16:37:47",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.845735392999984,
+          10.19127921200004,
+          330.09579999999551
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "NameAndras": "Rdjnct",
+        "Date": "20-FEB-20 16:37:28",
+        "Edits": null,
+        "NameNew": "Road 605",
+        "Type": "Rd Int",
+        "NameESP": "Camino 605",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82930057699997,
+          10.21486094200003,
+          628.1024999999936
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "NameAndras": "Roadjnct",
+        "Date": "19-FEB-20 16:01:21",
+        "Edits": null,
+        "NameNew": "Intersection San Antonio",
+        "Type": "Road Int",
+        "NameESP": "",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.84429228099998,
+          10.192621741000039,
+          307.02439999999478
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "NameAndras": "Roadstart",
+        "Date": "20-FEB-20 16:34:03",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.954021200999989,
+          10.124435378000044,
+          90.729399999996531
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "NameAndras": "Roadx",
+        "Date": "21-FEB-20 12:09:27",
+        "Edits": null,
+        "NameNew": "Road 601",
+        "Type": "Rd Int",
+        "NameESP": "Camino 601",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.92509139699996,
+          10.131714977000058,
+          65.975699999995413
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "NameAndras": "Rvr x",
+        "Date": "21-FEB-20 10:01:01",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.924522684999943,
+          10.130882151000037,
+          66.216100000005099
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "NameAndras": "Rvrbed",
+        "Date": "21-FEB-20 9:54:16",
+        "Edits": null,
+        "NameNew": "Water crossing, only dry season",
+        "Type": "Water crossing",
+        "NameESP": null,
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.820096556999943,
+          10.223188726000046,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "NameAndras": "Sanantonio?",
+        "Date": "19-FEB-20 15:43:40",
+        "Edits": null,
+        "NameNew": "San Antonio",
+        "Type": "Town",
+        "NameESP": "San Antonio",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.791154032999941,
+          10.281117959000028,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "NameAndras": "Finca Eco - Zelmis Pizza",
+        "Date": "",
+        "Edits": null,
+        "NameNew": "Finca Eco - Zelmis Pizza",
+        "Type": "Restaurant, Attraction, Camping",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.881606379999937,
+          10.156766744000038,
+          236.12780000000203
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "NameAndras": "School",
+        "Date": "20-FEB-20 11:54:30",
+        "Edits": null,
+        "NameNew": "School",
+        "Type": "Education",
+        "NameESP": "Escula Sarmiento",
+        "Include": "Noc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.884639745999948,
+          10.142539116000023,
+          264.48630000000412
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "NameAndras": "School AccomLC",
+        "Date": "20-FEB-20 12:33:26",
+        "Edits": null,
+        "NameNew": "Bunkhouse, add local trail",
+        "Type": "lodging",
+        "NameESP": "Albergue La Colina",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.002322922999952,
+          10.106138773000055,
+          28.244300000005751
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "NameAndras": "Shop",
+        "Date": "21-FEB-20 16:29:29",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.843191401999945,
+          10.195730338000033,
+          319.28130000000237
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "NameAndras": "Shopsodadonpat",
+        "Date": "20-FEB-20 15:59:55",
+        "Edits": null,
+        "NameNew": "Soda Don Pat",
+        "Type": "Store, Food, Soda",
+        "NameESP": "Soda Don Pat",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.843345377999981,
+          10.197426835000044,
+          322.64579999999842
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "NameAndras": "ShopSuprm",
+        "Date": "20-FEB-20 16:02:41",
+        "Edits": null,
+        "NameNew": "Barrio La Cueva De Pizote",
+        "Type": "Shop, Food, market, General Store, Bus Stop",
+        "NameESP": "Barrio La Cueva De Pizote",
+        "Include": "y"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797886879999965,
+          10.259734215000037,
+          1382.7314000000042
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "NameAndras": "Sign G",
+        "Date": "18-FEB-20 18:48:30",
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Trail Int",
+        "NameESP": "Sendero Tres Cumbres",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.815841000999967,
+          10.185824521000029,
+          449.77920000000449
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "NameAndras": "Starosa",
+        "Date": "19-FEB-20 21:51:34",
+        "Edits": null,
+        "NameNew": "Santa Rosa",
+        "Type": "Town",
+        "NameESP": "Santa Rosa",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.821574054999985,
+          10.214583334000054,
+          536.05680000000575
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "NameAndras": "Streamx",
+        "Date": "19-FEB-20 16:36:54",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.824784553999962,
+          10.216562663000047,
+          599.50340000000142
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "NameAndras": "Thrghbldg",
+        "Date": "19-FEB-20 16:26:22",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797805491999952,
+          10.259496421000051,
+          1391.1428000000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "NameAndras": "Top",
+        "Date": "18-FEB-20 18:46:15",
+        "Edits": null,
+        "NameNew": "Ocean View",
+        "Type": "View",
+        "NameESP": "Mirador Mar",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82339695099995,
+          10.206545675000029,
+          456.02760000000126
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "NameAndras": "Tree",
+        "Date": "19-FEB-20 17:48:40",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.819142631999966,
+          10.196881928000039,
+          526.92440000000352
+        ]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "NameAndras": "Treeclimbfence",
+        "Date": "19-FEB-20 19:33:35",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.796691201999977,
+          10.271115163000047,
+          1221.4713999999949
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "NameAndras": "View",
+        "Date": "18-FEB-20 17:23:04",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.795934566999961,
+          10.270396918000074,
+          1239.0155999999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 72,
+        "NameAndras": "Vw1",
+        "Date": "18-FEB-20 17:25:40",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.794609304999938,
+          10.267000236000058,
+          1295.0117000000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "NameAndras": "Vw1a",
+        "Date": "18-FEB-20 17:38:55",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.791254028999958,
+          10.263235671000075,
+          1350.5276000000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "NameAndras": "Vw1b",
+        "Date": "18-FEB-20 18:21:07",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.900892087999978,
+          10.148583977000044,
+          292.12410000000091
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "NameAndras": "Vw2",
+        "Date": "21-FEB-20 7:47:59",
+        "Edits": null,
+        "NameNew": "View",
+        "Type": "View",
+        "NameESP": "Mirador",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.796669575999942,
+          10.257438999000044,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 76,
+        "NameAndras": "Vwend",
+        "Date": "18-FEB-20 19:33:29",
+        "Edits": null,
+        "NameNew": "Very Windy",
+        "Type": "Warning",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79609910399995,
+          10.25389588400003,
+          1301.5007000000041
+        ]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "NameAndras": "Vww",
+        "Date": "18-FEB-20 19:49:15",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.817982576999952,
+          10.189444665000053,
+          388.01489999999467
+        ]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "NameAndras": "Waterfall",
+        "Date": "19-FEB-20 20:22:28",
+        "Edits": null,
+        "NameNew": "Santa Rosa Waterfall",
+        "Type": "Attraction",
+        "NameESP": "Catarata de Santa Rosa",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.941461253999989,
+          10.134236002000023,
+          103.70720000000438
+        ]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "NameAndras": "Widertrack",
+        "Date": "21-FEB-20 11:20:09",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.823866839999937,
+          10.204175944000042,
+          394.0231000000058
+        ]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "NameAndras": "X00",
+        "Date": "19-FEB-20 18:12:01",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.825578256999961,
+          10.200486565000062,
+          406.0393999999942
+        ]
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "NameAndras": "X000",
+        "Date": "19-FEB-20 18:52:34",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.814728553999942,
+          10.192327788000057,
+          448.0969000000041
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "NameAndras": "X0000",
+        "Date": "19-FEB-20 20:07:09",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.823521421999942,
+          10.210127765000038,
+          485.58789999999863
+        ]
+      },
+      "properties": {
+        "OBJECTID": 83,
+        "NameAndras": "x05",
+        "Date": "19-FEB-20 17:26:47",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.823048179999944,
+          10.209053792000077,
+          478.13779999999679
+        ]
+      },
+      "properties": {
+        "OBJECTID": 84,
+        "NameAndras": "X06",
+        "Date": "19-FEB-20 17:30:58",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.824278307999975,
+          10.202741213000024,
+          416.61389999999665
+        ]
+      },
+      "properties": {
+        "OBJECTID": 85,
+        "NameAndras": "X07",
+        "Date": "19-FEB-20 18:19:50",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.825254044999951,
+          10.201183269000069,
+          404.59750000000349
+        ]
+      },
+      "properties": {
+        "OBJECTID": 86,
+        "NameAndras": "X08",
+        "Date": "19-FEB-20 18:26:24",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.821360483999968,
+          10.213173749000021,
+          516.59020000000601
+        ]
+      },
+      "properties": {
+        "OBJECTID": 87,
+        "NameAndras": "X2",
+        "Date": "19-FEB-20 16:46:32",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.822347200999957,
+          10.212182170000062,
+          504.81410000000324
+        ]
+      },
+      "properties": {
+        "OBJECTID": 88,
+        "NameAndras": "X3",
+        "Date": "19-FEB-20 16:59:45",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82282522099996,
+          10.211036112000045,
+          494.72049999999581
+        ]
+      },
+      "properties": {
+        "OBJECTID": 89,
+        "NameAndras": "X4 Left",
+        "Date": "19-FEB-20 17:05:00",
+        "Edits": null,
+        "NameNew": null,
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.808780239999976,
+          10.305124051000064,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 93,
+        "NameAndras": "",
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Fabriqa de Quesos",
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.811693712999954,
+          10.306959075000066,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 94,
+        "NameAndras": "",
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Monte Verde Centro",
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.812075712999956,
+          10.306670198000063,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 95,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "CASEM",
+        "Type": null,
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.809138030999975,
+          10.302867603000038,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Stuckey Rd.",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.804969865999965,
+          10.299609133000047,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 97,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "La Trocha",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.800937965999935,
+          10.286527002000071,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 98,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Finca La Bella",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.804185333999953,
+          10.284011940000028,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 100,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Finca La Bella",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.804874183999971,
+          10.282957439000029,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "CIEE",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.804659584999968,
+          10.283168264000039,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 103,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "General Store",
+        "Type": "Food",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.805057434999981,
+          10.28259498500006,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 104,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Elementary School",
+        "Type": "Education",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.807655995999937,
+          10.279226080000058,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 106,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Camino Buen Amigo",
+        "Type": "Road Int",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.79895520499997,
+          10.277335717000028,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 107,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Puente Buen Amigo ",
+        "Type": "Bridge, Water Crossing",
+        "NameESP": null,
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.804628581999964,
+          10.241541650000045,
+          1075.6940000000031
+        ]
+      },
+      "properties": {
+        "OBJECTID": 108,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Plane of the Goat",
+        "Type": "Road Int",
+        "NameESP": "Llano de Cabro",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.818289476999951,
+          10.233890271000064,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Road Int",
+        "NameESP": "Camino Vera Cruz",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.820231710999963,
+          10.223297310000021,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 110,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Education",
+        "NameESP": "Escuela San Antonio",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.818254605999982,
+          10.233851672000071,
+          740.67579999999725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 111,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Vera Cruz",
+        "Type": "Town",
+        "NameESP": "Vera Cruz",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.822339842999952,
+          10.221430575000056,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 112,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Intersection San Antonio",
+        "Type": "Road Int",
+        "NameESP": "",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.82727255399999,
+          10.21653969700003,
+          605.73699999999371
+        ]
+      },
+      "properties": {
+        "OBJECTID": 113,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Santa Rosa Trail",
+        "Type": "Trail Int",
+        "NameESP": "Sendero Santa Rosa",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.816881997999985,
+          10.185904472000061,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 114,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": null,
+        "Type": "Lodging, Restaurant, Information",
+        "NameESP": "Salon Comunal",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.81641321699999,
+          10.185823285000026,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Football Field",
+        "Type": "Attraction",
+        "NameESP": "Cancha de Futbol",
+        "Include": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.830879538999966,
+          10.187107734000051,
+          350.96799999999348
+        ]
+      },
+      "properties": {
+        "OBJECTID": 116,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Road 606",
+        "Type": "Road Int",
+        "NameESP": "Via 606",
+        "Include": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.84363759699994,
+          10.198433506000072,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 117,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Sustainability Demonstration Center",
+        "Type": "loding, food, market, attraction, information",
+        "NameESP": "Centro demostrativo de sostenibilidad",
+        "Include": "y"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.843597345999967,
+          10.198281060000056,
+          325.39400000000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 118,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Guacimal",
+        "Type": "Town",
+        "NameESP": "Guacimal",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.909837728999946,
+          10.145345157000065,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 123,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Highway 1",
+        "Type": "Rd Int",
+        "NameESP": null,
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.918240405999939,
+          10.124805976000061,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 125,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Road",
+        "Type": "Rd Int",
+        "NameESP": null,
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.011384857999985,
+          10.127252825000028,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 126,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Road to Manzanillo",
+        "Type": "Rd Int",
+        "NameESP": "Camino a Manzanillo",
+        "Include": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.018418462999989,
+          10.132414500000039,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 128,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Manzanillo",
+        "Type": "Town",
+        "NameESP": "Manzanillo",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.00220352499997,
+          10.105951702000027,
+          28.876000000003842
+        ]
+      },
+      "properties": {
+        "OBJECTID": 130,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "Costa de Pajaros",
+        "Type": "Town",
+        "NameESP": "Costa de Pajaros",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.98039658099998,
+          10.134778660000052,
+          38.225999999995111
+        ]
+      },
+      "properties": {
+        "OBJECTID": 131,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "La Associacion de Mujeres Unidas de La Montana de Coyolito",
+        "Type": "Lodging, Food",
+        "NameESP": "La Associacion de Mujeres Unidas de La Montana de Coyolito",
+        "Include": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.884953649999943,
+          10.140536739000027,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 132,
+        "NameAndras": null,
+        "Date": null,
+        "Edits": null,
+        "NameNew": "La Colin",
+        "Type": "Town",
+        "NameESP": "La Colina",
+        "Include": "yes"
+      }
+    }
+  ]
+}
