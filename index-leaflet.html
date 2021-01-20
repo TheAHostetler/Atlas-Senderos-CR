@@ -66,8 +66,8 @@
       L.geoJson(data).addTo(map);
     });
 
-    //Add waypoints to map from geoJSON
-    var waypoints = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Waypoints.geojson",function(data){
+    //Add points of interest to map from geoJSON
+    var poi = $.getJSON("https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_Waypoints.geojson",function(data){
 
       //Display trailhead points with icon and popup
       L.geoJson(data,{
@@ -111,6 +111,23 @@ var satellite = ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Ima
 
 var topo = ['https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=043e839ea61f489cb15e6981706e65f2','&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'];
 
+//Adding function to display layers at different zoom levels
+/*
+map.on('zoomend', function() {
+var zoomlevel = map.getZoom();
+    if (zoomlevel  <10){
+        if (map.hasLayer(poi)) {
+            map.removeLayer(poi);
+        } else {}
+    }
+    if (zoomlevel >= 10){
+        if (map.hasLayer(poi)){
+        } else {
+            map.addLayer(points);
+        }
+    }
+});
+*/
   </script>
 
 </body>
