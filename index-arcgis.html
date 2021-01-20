@@ -20,7 +20,7 @@
   <!--Create header div-->
   <div style='display: flex ; align-items: center;' id='header'>
     <div style='flex:1;margin-left:1%;margin-right:2%'>
-      <img id='logo-wtn' src="media/WTN_Logo.png" alt="Logo - World Trails Network" width = '100'>
+      <img id='logo-wtn' src="media/WTN_HubAmr_Logo.jpg" alt="Logo - World Trails Network" width = '180'>
     </div>
     <div style='flex:6;margin-left:2%'>
       <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
@@ -37,17 +37,18 @@
       "esri/Map",
       "esri/views/MapView",
       "esri/widgets/BasemapToggle",
-      "esri/widgets/BasemapGallery",
       "esri/layers/FeatureLayer",
     ],
 
     //
-      function(Map, MapView, BasemapToggle, BasemapGallery, FeatureLayer) {
+      function(Map, MapView, BasemapToggle, FeatureLayer) {
 
+        //Create map and set basemap
         var map = new Map({
           basemap: "topo-vector"
         });
 
+        //Create map view
         var view = new MapView({
           container: "viewDiv",
           map: map,
@@ -55,24 +56,11 @@
         zoom: 11
         });
 
+        //Add basemap toggle
         var basemapToggle = new BasemapToggle({
           view: view, secondMap: "satellite"
         });
-
         view.ui.add(basemapToggle,"top-right");
-
-        var basemapGallery = new BasemapGallery({
-          view: view,
-          source: {
-            portal: {
-              url: "https://www.arcgis.com",
-              //*** ADD ***//
-              useVectorBasemaps: true // Load raster tile basemaps
-            }
-          }
-        });
-
-        view.ui.add(basemapGallery, "bottom-right");
 
         // Add Sendero Pacifico Madre (main trail) feature layer (line)
         var sendero_madre = new FeatureLayer({
@@ -89,20 +77,10 @@
         // Add Sendero Pacifico towns feature layer (points)
         var sendero_towns = new FeatureLayer({
           url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Towns/FeatureServer",
-          renderer: "townsRenderer",
         });
         map.add(sendero_towns);
 
-        //Style layers
-        var townsRenderer = {
-          type: "simple",
-          symbol: {
-            type: "picture-marker",
-            url: "http://static.arcgis.com/images/Symbols/NPS/npsPictograph_0231b.png",
-            width: "18px",
-            height: "18px"
-          }
-        };
+
 
       });
 
