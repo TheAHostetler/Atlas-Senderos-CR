@@ -81,17 +81,31 @@
         map.add(sendero_madre);
 
         // Add Sendero Pacifico waypoints feature layer (points)
-        var sendero_waypoints = new FeatureLayer({
-          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Waypoints/FeatureServer"
+        var sendero_poi = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_POI/FeatureServer"
         });
-        map.add(sendero_waypoints);
+        map.add(sendero_poi);
 
         // Add Sendero Pacifico towns feature layer (points)
         var sendero_towns = new FeatureLayer({
-          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Towns/FeatureServer"
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Towns/FeatureServer",
+          renderer: "townsRenderer",
         });
         map.add(sendero_towns);
+
+        //Style layers
+        var townsRenderer = {
+          type: "simple",
+          symbol: {
+            type: "picture-marker",
+            url: "http://static.arcgis.com/images/Symbols/NPS/npsPictograph_0231b.png",
+            width: "18px",
+            height: "18px"
+          }
+        };
+
       });
+
 
   </script>
 
