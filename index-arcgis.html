@@ -90,10 +90,10 @@
         //Add Spur Trails feature layer (line)
         var sendero_spurs = new FeatureLayer({
           url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_SpurTrails/FeatureServer",
-        outFields: ["Name", "LengthKM"],
-        popupTemplate: popupTrails
+          outFields: ["Name", "LengthKM"],
+          popupTemplate: popupTrails
         });
-        map.add(sendero_madre);
+        map.add(sendero_spurs);
 
         // Add Sendero Pacifico waypoints feature layer (points)
         var sendero_poi = new FeatureLayer({
