@@ -1,0 +1,133 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS API for JavaScript Tutorials: Create a Starter App</title>
+
+  <!-- Adding styling info for page layout by reading in a CSS file -->
+  <link rel="stylesheet" href="styles.css"></link>
+
+  <!--Call ArcGIS JS libraries-->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.18/"></script>
+
+</head>
+
+<body>
+
+  <!--Create header div-->
+  <div style='display: flex ; align-items: center;' id='header'>
+    <div style='flex:1;margin-left:1%;margin-right:2%'>
+      <img id='logo-wtn' src="media/WTN_HubAmr_Logo.jpg" alt="Logo - World Trails Network" width = '180'>
+    </div>
+    <div style='flex:6;margin-left:2%'>
+      <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
+    </div>
+  </div>
+
+  <!--Create map div-->
+  <div id="viewDiv"></div>
+
+  <script>
+
+    //Call modules from ArcGIS
+    require([
+      "esri/Map",
+      "esri/views/MapView",
+      "esri/widgets/BasemapToggle",
+      "esri/layers/FeatureLayer",
+      "esri/renderers/UniqueValueRenderer"
+    ],
+
+    //
+      function(Map, MapView, BasemapToggle, FeatureLayer) {
+
+        //Create map and set basemap
+        var map = new Map({
+          basemap: "topo"
+        });
+
+        //Create map view
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          center: [-84.8930106936106, 10.179884269771113], // longitude, latitude
+        zoom: 11
+        });
+
+        //Add basemap toggle
+        var basemapToggle = new BasemapToggle({
+          view: view, secondMap: "hybrid"
+        });
+        view.ui.add(basemapToggle,"top-right");
+
+        //Define popups
+        var popupPOIs = {
+          title: "{NameESP}",
+          content:
+            "<i>{Type}</i><br><br><b>Name (English): </b>{NameNew}<br><b>Description: </b>Coming soon<br>"
+        };
+        var popupTowns = {
+          title: "Trail Town",
+          content:
+            "<b>{NameESP}</b><br><b>Description: </b>Coming soon<br>"
+        };
+        var popupTrails = {
+          title: "{Name}",
+          content:
+            "<b>Distance (km): </b>{LengthKM}<br><b>Elevation: </b>Coming soon<br><b>Description: </b>Coming soon"
+        };
+
+        //Style Features
+        var rendererPOI = {
+          type: "unique-value",
+          field: "Type",
+          defaultSymbol: {type: "simple-marker"},
+          uniqueValueInfos: [{
+            value: "..."
+            //refer to https://developers.arcgis.com/javascript/latest/api-reference/esri-renderers-UniqueValueRenderer.html
+          }]
+
+        }
+
+        // Add Sendero Pacifico Madre (main trail) feature layer (line)
+        var sendero_madre = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Madre/FeatureServer",
+        outFields: ["Name", "LengthKM"],
+        popupTemplate: popupTrails
+        });
+        map.add(sendero_madre);
+
+        //Add Spur Trails feature layer (line)
+        var sendero_spurs = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_SpurTrails/FeatureServer",
+          outFields: ["Name", "LengthKM"],
+          popupTemplate: popupTrails
+        });
+        map.add(sendero_spurs);
+
+        // Add Sendero Pacifico waypoints feature layer (points)
+        var sendero_poi = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_POI/FeatureServer",
+        outFields: ["NameESP", "NameNew", "Type"],
+        popupTemplate: popupPOIs
+        });
+        map.add(sendero_poi);
+
+        // Add Sendero Pacifico towns feature layer (points)
+        var sendero_towns = new FeatureLayer({
+          url: "https://services5.arcgis.com/FKwcDz27wRAj4HUT/arcgis/rest/services/SenderoPacifico_Towns/FeatureServer",
+        outFields: ["NameESP", "NameNew"],
+        popupTemplate: popupTowns
+        });
+        map.add(sendero_towns);
+
+      });
+
+
+  </script>
+
+</body>
+</html>
