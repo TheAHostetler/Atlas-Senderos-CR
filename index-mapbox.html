@@ -46,6 +46,21 @@
   map.addControl(new mapboxgl.NavigationControl(), 'top-left');
   //not using full screen mode, it covers up legend map.addControl(new mapboxgl.FullscreenControl(), 'top-left');
 
+  map.on('load', function () {
+    map.addSource('trails', {
+      'type': 'geojson',
+      'url': 'https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailsAll.geojson'
+    });
+    map.addLayer({
+      'id': 'trails',
+      'type': 'line',
+      'source': 'trails',
+      'paint': {
+        'line-color': '#000000',
+        'line-width': 8
+      }
+    });
+  });
   </script>
 
 </body>
