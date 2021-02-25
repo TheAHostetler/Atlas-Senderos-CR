@@ -15,10 +15,19 @@ h1,h2{
   height: 10%
 }
 #map {
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 #viewDiv {
   height: 90%;
   width: 100%;
+}
+.map-overlay {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin-right: 0;
+  font-family: Arial, sans-serif;
+  border-radius: 0px;
+  z-index: 999999;
 }

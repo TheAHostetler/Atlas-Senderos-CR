@@ -11,32 +11,40 @@
   <style type="text/css">
   </style>
 
-  <!-- Adding styling info for page layout by reading in a CSS file -->
+<!-- Adding styling info for page layout by reading in a CSS file -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div style='display: flex ; align-items: center;' id='header'>
-    <div style='flex:1;margin-left:1%;margin-right:2%'>
-      <img id='logo-wtn' src="media/WTN_Logo.png" alt="Logo - World Trails Network" width = '100'>
-    </div>
-    <div style='flex:6;margin-left:2%'>
-      <h1 id='title'>El Sendero Pacifico<br>Webmap, V1 by <a href=https://andrewhostetler.weebly.com>A.Hostetler</a></h1>
-    </div>
-  </div>
-
-  <!-- Container for map -->
+<!-- Container for map -->
   <div id='map'></div>
 
+<!-- Legend container -->
+  <div class='map-overlay'>
+    <img width=200px src='media/MB-Legend.svg'>
+  </div>
+
 <script>
-  // Add Mapbox access token
+// Add Mapbox access token
   mapboxgl.accessToken = 'pk.eyJ1Ijoid29ybGR0cmFpbHNuZXQiLCJhIjoiY2tqZGVlenN3MGg1ajJxbnZ6c3FxN25nZCJ9.KRffm2O2O2xAjv37ZsGvmA';
 
-  // Initiate Map
+// Initiate Map
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/worldtrailsnet/ckko8316q0xz517pib7r3qs7t'
   });
+
+//Add user controls
+  map.scrollZoom.enable
+  map.dragPan.enable
+  map.dragRotate.enable
+  map.doubleClickZoom.enable
+  map.touchZoomRotate.enable
+  map.touchPitch.enable
+
+  // Add controls
+  map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+  //not using full screen mode, it covers up legend map.addControl(new mapboxgl.FullscreenControl(), 'top-left');
 
   </script>
 
