@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="11.260929mm"
-   height="7.8208146mm"
-   viewBox="0 0 11.260929 7.8208146"
+   width="8.615097mm"
+   height="7.8210802mm"
+   viewBox="0 0 8.615097 7.8210802"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -38,6 +38,28 @@
          x="3.719008"
          y="10.484007" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath935-9">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.366303;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:6.80315"
+         id="rect937-1"
+         width="42.560993"
+         height="29.558985"
+         x="3.719008"
+         y="10.484007" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath983">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.377953;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:6.80315"
+         id="rect985"
+         width="42.559994"
+         height="9.9812794"
+         x="3.7190032"
+         y="30.06172" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -46,9 +68,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="33.220419"
-     inkscape:cy="5.8641476"
+     inkscape:zoom="5.6"
+     inkscape:cx="13.327485"
+     inkscape:cy="52.446228"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -57,7 +79,8 @@
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -74,42 +97,25 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-47.630451,-114.01285)">
+     transform="translate(-47.663857,-113.89566)">
     <g
-       id="g108"
-       transform="matrix(0.26458333,0,0,0.26458333,46.646463,111.23896)"
-       clip-path="url(#clipPath935)">
-      <g
-         id="g102">
-        <path
-           d="m 35.189,11.829 c 0,0.746 0.603,1.347 1.347,1.347 h 7.051 v 6.193 c 0,0.741 0.602,1.345 1.346,1.345 0.741,0 1.347,-0.604 1.347,-1.345 v -8.885 h -9.743 c -0.745,-10e-4 -1.348,0.603 -1.348,1.345 z"
-           id="path94" />
-        <path
-           d="M 13.142,10.483 H 3.72 v 8.885 c 0,0.741 0.604,1.345 1.346,1.345 0.746,0 1.347,-0.604 1.347,-1.345 v -6.193 h 6.729 c 0.743,0 1.347,-0.601 1.347,-1.347 -0.001,-0.741 -0.605,-1.345 -1.347,-1.345 z"
-           id="path96" />
-        <path
-           d="m 13.142,37.35 h -6.73 v -5.867 c 0,-0.744 -0.601,-1.346 -1.347,-1.346 -0.741,0 -1.346,0.602 -1.346,1.346 v 8.56 h 9.422 c 0.743,0 1.347,-0.602 1.347,-1.347 0,-0.744 -0.604,-1.346 -1.346,-1.346 z"
-           id="path98" />
-        <path
-           d="m 44.933,30.137 c -0.744,0 -1.346,0.602 -1.346,1.346 v 5.867 h -7.051 c -0.744,0 -1.347,0.603 -1.347,1.346 0,0.745 0.603,1.347 1.347,1.347 h 9.743 v -8.56 c 0,-0.745 -0.602,-1.346 -1.346,-1.346 z"
-           id="path100" />
-      </g>
-      <text
-         x="0"
-         y="65"
-         fill="#000000"
-         font-size="5px"
-         font-weight="bold"
-         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
-         id="text104">Created by Luboš Volkov</text>
-      <text
-         x="0"
-         y="70"
-         fill="#000000"
-         font-size="5px"
-         font-weight="bold"
-         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
-         id="text106">from the Noun Project</text>
+       id="g1086">
+      <path
+         d="m 53.34446,114.25179 c 0,0.19738 0.159544,0.35639 0.356394,0.35639 h 1.865577 v 1.63856 c 0,0.19606 0.159279,0.35587 0.356129,0.35587 0.196056,0 0.356394,-0.15981 0.356394,-0.35587 v -2.35082 h -2.577836 c -0.197114,-2.6e-4 -0.356658,0.15955 -0.356658,0.35587 z"
+         id="path1003"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 50.157026,113.89566 h -2.492904 v 2.35082 c 0,0.19606 0.159808,0.35586 0.356129,0.35586 0.197379,0 0.356394,-0.1598 0.356394,-0.35586 v -1.63856 h 1.780381 c 0.196586,0 0.356394,-0.15902 0.356394,-0.3564 -2.65e-4,-0.19605 -0.160073,-0.35586 -0.356394,-0.35586 z"
+         id="path1005"
+         style="stroke-width:0.264583" />
+      <path
+         d="M 50.157026,121.00422 H 48.37638 v -1.55231 c 0,-0.19685 -0.159014,-0.35613 -0.356393,-0.35613 -0.196057,0 -0.35613,0.15928 -0.35613,0.35613 v 2.26483 h 2.492905 c 0.196585,0 0.356393,-0.15928 0.356393,-0.35639 0,-0.19685 -0.159808,-0.35613 -0.356129,-0.35613 z"
+         id="path1007"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 55.92256,119.09578 c -0.19685,0 -0.356129,0.15928 -0.356129,0.35613 v 1.55231 h -1.865577 c -0.19685,0 -0.356394,0.15954 -0.356394,0.35613 0,0.19711 0.159544,0.35639 0.356394,0.35639 h 2.577835 v -2.26483 c 0,-0.19712 -0.159279,-0.35613 -0.356129,-0.35613 z"
+         id="path1009"
+         style="stroke-width:0.264583" />
     </g>
   </g>
 </svg>
