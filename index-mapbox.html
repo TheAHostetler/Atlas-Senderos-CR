@@ -20,20 +20,20 @@
   <div id='map'></div>
 
 <!-- Legend container -->
-  <div class='map-overlay-legend'>
-    <img width=200px src='media/MB-Legend.svg'>
+  <div class='map-overlay' id=legend>
+    <span><img width=200px src='media/MB-Legend.svg'></span>
   </div>
 
-  <!--Custom control buttons container-->
-  <div class='map-overlay-controls'>
-    <span class="button-control" id="button-fullscreen"><img href="https://theahostetler.github.io/El-Sendero-Pacifico/index-mapbox" src="media/button-fullscreen.svg" width=20></img></span>
+  <!--Map control buttons container-->
+  <div class='map-overlay' id='controls'>
+    <span class="button-control" id="button-fullscreen"><a href="https://theahostetler.github.io/El-Sendero-Pacifico/index-mapbox" target="blank"> <img src="media/button-fullscreen.svg" width=20></img></a></span>
   </div>
 
 <script>
-// Add Mapbox access token
+  // Add Mapbox access token
   mapboxgl.accessToken = 'pk.eyJ1Ijoid29ybGR0cmFpbHNuZXQiLCJhIjoiY2tqZGVlenN3MGg1ajJxbnZ6c3FxN25nZCJ9.KRffm2O2O2xAjv37ZsGvmA';
 
-// Initiate Map
+  // Initiate Map
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/worldtrailsnet/ckko8316q0xz517pib7r3qs7t',
@@ -49,7 +49,7 @@
     customAttribution: "",
   }));
 
-//Add user controls
+  //Add user controls
   map.scrollZoom.enable
   map.dragPan.enable
   map.dragRotate.enable
@@ -59,17 +59,58 @@
 
   // Add controls
   map.addControl(new mapboxgl.NavigationControl(), 'top-left');
-  //not using full screen mode, it covers up legend map.addControl(new mapboxgl.FullscreenControl(), 'top-left');
+
+
+  // Add features to map
+  map.on('load', function () {
+    map.addSource('route', {
+      'type': 'geojson',
+      'data': "https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailsAll.geojson",
+    });
+    map.addLayer({
+    'id': 'route',
+    'type': 'line',
+    'source': 'route',
+    'layout': {
+    'line-join': 'round',
+    'line-cap': 'round'
+    },
+    'paint': {
+    'line-color': '#888',
+    'line-width': 8
+    }
+  });
+  });
+    /*
+
+    map.addLayer({
+    'id': 'route',
+    'type': 'line',
+    'source': 'route',
+    'layout': {
+    'line-join': 'round',
+    'line-cap': 'round'
+    },
+    'paint': {
+    'line-color': '#888',
+    'line-width': 8
+    }
+  });
+*/
 
   map.on('load', function () {
     map.addSource('trails-data', {
       'type': 'geojson',
-      'data': '/data/SenderoPacifico_TrailsAll.geojson'
+      'data': './data/SenderoPacifico_TrailsAll.geojson'
     });
     map.addLayer({
       'id': 'trails',
-      'type': 'line',
+      'type': 'data',
       'source': 'trails-data',
+      'paint': {
+        'line-color': '#000',
+        'line-width': 8
+        }
     });
   });
   </script>

@@ -23,34 +23,31 @@ h1,h2{
   height: 90%;
   width: 100%;
 }
-
-.map-overlay-legend {
+.map-overlay{
   position: absolute;
-  width: 200px;
+}
+#legend {
+  width: 190px;
   top: 10px;
-  right: 0px;
+  right: 10px;
   margin-right: 10px;
-  font-family: Arial, sans-serif;
   border-radius: 0px;
 }
-.map-overlay-controls {
-  position: absolute;
-  width: 200px;
+#controls {
+  width: 0px;
   top: 10px;
   left: 10px;
   margin-right: 10px;
   background-color: #000000;
 }
-
 .button-control {
   display: block;
   position: absolute;
   border-radius:4px;
   background-color: white;
-  padding: 5px;
+  padding: 6px 5px 4px;
   color: black;
 }
-
 #button-fullscreen {
   top: 94px;
   width: 20px;
