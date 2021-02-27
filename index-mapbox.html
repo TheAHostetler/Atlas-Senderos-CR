@@ -68,51 +68,20 @@
       'data': "https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailsAll.geojson",
     });
     map.addLayer({
-    'id': 'route',
-    'type': 'line',
-    'source': 'route',
-    'layout': {
-    'line-join': 'round',
-    'line-cap': 'round'
-    },
-    'paint': {
-    'line-color': '#888',
-    'line-width': 8
-    }
-  });
-  });
-    /*
-
-    map.addLayer({
-    'id': 'route',
-    'type': 'line',
-    'source': 'route',
-    'layout': {
-    'line-join': 'round',
-    'line-cap': 'round'
-    },
-    'paint': {
-    'line-color': '#888',
-    'line-width': 8
-    }
-  });
-*/
-
-  map.on('load', function () {
-    map.addSource('trails-data', {
-      'type': 'geojson',
-      'data': './data/SenderoPacifico_TrailsAll.geojson'
-    });
-    map.addLayer({
-      'id': 'trails',
-      'type': 'data',
-      'source': 'trails-data',
+      'id': 'route',
+      'type': 'line',
+      'source': 'route',
+      'layout': {
+        'line-join': 'round',
+        'line-cap': 'round'
+      },
       'paint': {
-        'line-color': '#000',
-        'line-width': 8
-        }
+        'line-color': 'rgba(0, 0, 0, .5)',
+        'line-width': 8,
+      }
     });
   });
+
   </script>
 
 </body>
