@@ -16,21 +16,33 @@
 </head>
 
 <body>
-<!-- Container for map -->
+  <!-- Container for map -->
   <div id='map'></div>
 
-<!-- Legend container -->
+  <!-- Legend container-->
+  <!-- hold for later use
   <div class='map-overlay' id=legend>
     <span><img width=200px src='media/MB-Legend.svg'></span>
   </div>
+  -->
 
   <!--Map control buttons container-->
   <div class='map-overlay' id='controls'>
     <span class="button-control" id="button-fullscreen"><a href="https://theahostetler.github.io/El-Sendero-Pacifico/index-mapbox" target="blank"> <img src="media/button-fullscreen.svg" width=20></img></a></span>
   </div>
 
+  <!--Trail info panel - from studio week 3 index-->
+  <div class='map-overlay' id='info'>
+    <h2>Trail Information</h2>
+    <div id='pd'>
+      <p>Click on a trail!</p>
+    </div>
+  </div>
+
+
+
 <script>
-  // Add Mapbox access token
+  // Mapbox access token
   mapboxgl.accessToken = 'pk.eyJ1Ijoid29ybGR0cmFpbHNuZXQiLCJhIjoiY2tqZGVlenN3MGg1ajJxbnZ6c3FxN25nZCJ9.KRffm2O2O2xAjv37ZsGvmA';
 
   // Initiate Map
@@ -40,13 +52,9 @@
     attributionControl: false,
   });
 
-  var defaultAttribute = map.addControl(new mapboxgl.AttributionControl({
-    compact: false,
-  }));
-
   var altAttribute = map.addControl(new mapboxgl.AttributionControl({
     compact: true,
-    customAttribution: "",
+    customAttribution: "<a href='https://worldtrailsnetwork.org/'>World Trails Network</a>",
   }));
 
   //Add user controls
@@ -63,24 +71,81 @@
 
   // Add features to map
   map.on('load', function () {
-    map.addSource('route', {
+    map.addSource('trails', {
       'type': 'geojson',
       'data': "https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailsAll.geojson",
     });
-    map.addLayer({
-      'id': 'route',
-      'type': 'line',
-      'source': 'route',
-      'layout': {
-        'line-join': 'round',
-        'line-cap': 'round'
-      },
-      'paint': {
-        'line-color': 'rgba(0, 0, 0, .5)',
-        'line-width': 8,
+
+    /* Get trail info at location */
+    // Hover
+    map.on('click', function(e) {
+      var trails = map.queryRenderedFeatures(e.point, {
+        layers: ['SP Trails']
+      });
+
+      if (trails.length > 0) {
+        document.getElementById('pd').innerHTML = '<h3><strong>Name: </strong>' + trails[0].properties.NameESP
+        + '</h3><p><strong>Length (km):</strong> ' + trails[0].properties.LengthKM + '</p>'
+        + '<p><strong>Class:</strong> ' + trails[0].properties.Class + '</p>'
+        + '<p><strong>Restrictions:</strong> ' + trails[0].properties.Restrictions + '</p>'
+        ;
+      } else {
+        document.getElementById('pd').innerHTML = '<p>Click on a trail!</p>';
       }
     });
+
+    //Custom map cursor
+    map.getCanvas().style.cursor = 'default';
+
+    //Click
+    /*
+    var trailsClicked = []
+    map.on('click', function(e) {
+      var trails = map.queryRenderedFeatures(e.point, {
+        layers: ['SP Trails']
+      });
+
+      if (trails[0] != trailsClicked[0]) {
+      } else {
+        document.getElementById('pd').innerHTML = '<h3><strong>' + trails[0].properties.NameESP + '</strong></h3><p><strong><em> MORE INFORMATION </strong></em></p>';
+        trailsClicked[0] = trails[0];
+        return trailsClicked
+      }
+    });
+    */
   });
+
+  // Route highlight function
+  var currentTrailID = ''
+  function highlightLayer (trailID){
+    if (trailID == currentTrailID) {
+      map.removeLayer('trails');
+      currentMode = '';
+    } else {
+      map.removeLayer('trails');
+      map.addLayer({
+        'id': 'trails',
+        'type': 'line',
+        'source': 'trails',
+        'layout': {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        'paint': {
+          'line-color': 'rgba(255, 246, 0, 0.5)',
+          'line-width': 8,
+          'line-blur': 4,
+          'line-gap-width': 8,
+        },
+        'filter': ['==', "OBJECTID", trailID],
+      });
+      currentTrailID = trailID;
+    };
+  }
+
+  //idea - set line to highlight when clicked, display line
+  // 1. Get all feature info from source layer
+  // 2. For loop to apply on-click highlight function to each
 
   </script>
 

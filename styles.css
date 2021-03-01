@@ -12,9 +12,6 @@ h1, h2, h3, h4, h5, p, a, ul, li {
 h1,h2{
 }
 
-#header {
-  height: 10%
-}
 #map {
   height: 100%;
   width: 100%;
@@ -25,6 +22,23 @@ h1,h2{
 }
 .map-overlay{
   position: absolute;
+}
+#info {
+  top: 10px;
+  right: 10px;
+  height: 40%;
+  padding-left: 5px;
+  padding-top: 0px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 50%);
+  overflow: auto;
+  border-radius: 8px;
+}
+#features {
+  top: 190px;
+  height: 100px;
+  margin-top: 20px;
+  width: 250px;
 }
 #legend {
   width: 190px;
