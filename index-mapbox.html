@@ -68,82 +68,88 @@
   // Add controls
   map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
-
-  // Add features to map
+  //Execute on map load
   map.on('load', function () {
+
+    // Add source+layer to map
     map.addSource('trails', {
       'type': 'geojson',
       'data': "https://theahostetler.github.io/El-Sendero-Pacifico/data/SenderoPacifico_TrailsAll.geojson",
     });
 
-    /* Get trail info at location */
-    // Hover
+    map.addLayer({
+      'id': 'trails',
+      'type': 'line',
+      'source': 'trails',
+      'layout': {
+        'line-join': 'round',
+        'line-cap': 'round'
+      },
+      'paint': {
+        'line-color': 'rgba(255, 246, 0, 0.0)',
+        'line-width': 8,
+        'line-blur': 4,
+        'line-gap-width': 8,
+      },
+    });
+
+    // Trail highlight function
+    /* saving for later
+    var currentTrailID = ''
+    function highlightLayer (trailID){
+      if (trailID == currentTrailID) {
+        map.removeLayer('trails');
+        currentTrailID = '';
+      } else {
+        map.removeLayer('trails');
+        map.addLayer({
+          'id': 'trails',
+          'type': 'line',
+          'source': 'trails',
+          'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          'paint': {
+            'line-color': 'rgba(255, 246, 0, 0.5)',
+            'line-width': 8,
+            'line-blur': 4,
+            'line-gap-width': 8,
+          },
+          'filter': ['==', "OBJECTID", ""],
+        });
+        currentTrailID = trailID;
+      };
+    };
+    */
+
+    // Get trail info at location
     map.on('click', function(e) {
+      map.setFilter('trails', null)
+
       var trails = map.queryRenderedFeatures(e.point, {
-        layers: ['SP Trails']
+        layers: ['trails']
       });
 
-      if (trails.length > 0) {
-        document.getElementById('pd').innerHTML = '<h3><strong>Name: </strong>' + trails[0].properties.NameESP
-        + '</h3><p><strong>Length (km):</strong> ' + trails[0].properties.LengthKM + '</p>'
-        + '<p><strong>Class:</strong> ' + trails[0].properties.Class + '</p>'
-        + '<p><strong>Restrictions:</strong> ' + trails[0].properties.Restrictions + '</p>'
-        ;
-      } else {
+      if (!trails.length) {
         document.getElementById('pd').innerHTML = '<p>Click on a trail!</p>';
-      }
+      };
+      // Write trail details to panel
+      document.getElementById('pd').innerHTML = '<h3><strong>Name: </strong>' + trails[0].properties.NameESP
+      + '</h3><p><strong>Length (km):</strong> ' + trails[0].properties.LengthKM.toFixed(2) + ' km</p>'
+      + '<p><strong>Class:</strong> ' + trails[0].properties.Class + '</p>'
+      + '<p><strong>Restrictions:</strong> ' + trails[0].properties.Restriction + '</p>';
+      //Highlight trail... Not working 3/3/21
+      map.setFilter('trails', ['==','OBJECTID', trails[0].properties.OBJECTID])
+      map.setPaintProperty('trails', 'line-color', 'rgba(255, 246, 0, 0.0)')
     });
 
     //Custom map cursor
     map.getCanvas().style.cursor = 'default';
 
-    //Click
-    /*
-    var trailsClicked = []
-    map.on('click', function(e) {
-      var trails = map.queryRenderedFeatures(e.point, {
-        layers: ['SP Trails']
-      });
-
-      if (trails[0] != trailsClicked[0]) {
-      } else {
-        document.getElementById('pd').innerHTML = '<h3><strong>' + trails[0].properties.NameESP + '</strong></h3><p><strong><em> MORE INFORMATION </strong></em></p>';
-        trailsClicked[0] = trails[0];
-        return trailsClicked
-      }
-    });
-    */
   });
 
-  // Route highlight function
-  var currentTrailID = ''
-  function highlightLayer (trailID){
-    if (trailID == currentTrailID) {
-      map.removeLayer('trails');
-      currentMode = '';
-    } else {
-      map.removeLayer('trails');
-      map.addLayer({
-        'id': 'trails',
-        'type': 'line',
-        'source': 'trails',
-        'layout': {
-          'line-join': 'round',
-          'line-cap': 'round'
-        },
-        'paint': {
-          'line-color': 'rgba(255, 246, 0, 0.5)',
-          'line-width': 8,
-          'line-blur': 4,
-          'line-gap-width': 8,
-        },
-        'filter': ['==', "OBJECTID", trailID],
-      });
-      currentTrailID = trailID;
-    };
-  }
-
-  //idea - set line to highlight when clicked, display line
+  //idea - set line to highlight when clicked, display trail info in side panel
   // 1. Get all feature info from source layer
   // 2. For loop to apply on-click highlight function to each
 
