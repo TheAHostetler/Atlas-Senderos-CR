@@ -95,7 +95,7 @@
     mapboxgl.accessToken = 'pk.eyJ1Ijoid29ybGR0cmFpbHNuZXQiLCJhIjoiY2tqZGVlenN3MGg1ajJxbnZ6c3FxN25nZCJ9.KRffm2O2O2xAjv37ZsGvmA'; //Mapbox token
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/worldtrailsnet/ckko8316q0xz517pib7r3qs7t', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
+      style: 'mapbox://styles/mapbox/streets-v11', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
       transformRequest: transformRequest
     });
 
@@ -103,7 +103,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRgZsFF0QQTmuy_N9MlMzc7fKHr3-EocSXG4zEJ2ZDtrkH_Ih0zLpK3iNQySz7jkBqdvuxPrB-vSLGd/pub?gid=0&single=true&output=csv', //'https://docs.google.com/spreadsheets/d/113ydrYHoLuLptXBeZEtoWxS_KlgS9qdhQHRLhYU5Uh8/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        url: 'https://docs.google.com/spreadsheets/d/113ydrYHoLuLptXBeZEtoWxS_KlgS9qdhQHRLhYU5Uh8/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
