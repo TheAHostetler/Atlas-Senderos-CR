@@ -1,1 +1,317 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-84.797207039999989,10.285746470000049]},"properties":{"OBJECTID":1,"Vendor":"Noe Vargas","Business":"Monteverde Natural Cosmetics","Type_of_Product":"Cosmetics (soap, shampoo, creams)","Location":"Monteverde (1 km east of Escuela Altos de San Luis Monteverde, 60109)","Coordinates":"10.285746472502385, -84.79720704449564","Coordinates_X":-84.797207044495636,"Coordinates_Y":10.285746472502385,"Latitude":10.285746469999999,"Longitude":-84.797207040000004,"Selling_Status":"Fully operating, physical store, online store, Amazon, Facebook/Instagram (marketing)","Website_Link":"https://monteverdebeauty.com/ https://www.facebook.com/Monteverdecosmetics/ https://www.instagram.com/monteverdecosmetics/ ","Other_Information":"Phone: (506) 2645 6344 Email: ventasmonteverdenc@gmail.com"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[-84.811692969999967,10.306523220000031]},"properties":{"OBJECTID":2,"Vendor":"Carla Willoughby (not a vendor, just Ambassador)","Business":null,"Type_of_Product":"jewelry made of silver and macrame, clothing and other cloth stuffs by CASEM, coffee, candles, soaps, handmade Christmas ornaments, honey","Location":"Monteverde (in general)","Coordinates":"10.306523218227856, -84.81169296617576","Coordinates_X":-84.811692966175755,"Coordinates_Y":10.306523218227856,"Latitude":10.306523220000001,"Longitude":-84.811692969999996,"Selling_Status":"Depends on level of each business: tourists, locals, online, etc.","Website_Link":null,"Other_Information":"CASEM: http://www.casemcoop.com/ "}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[-84.801787769999976,10.286787790000062]},"properties":{"OBJECTID":3,"Vendor":"Oldemar Salazar","Business":"Cafe Bella Tica","Type_of_Product":"Organic coffee","Location":"San Luis (The Trail to San Luis, Puntaneras Province, Monteverde 60109)","Coordinates":"10.28678778956601, -84.80178777333138","Coordinates_X":-84.801787773331384,"Coordinates_Y":10.286787789566009,"Latitude":10.28678779,"Longitude":-84.801787770000004,"Selling_Status":"Fully opertating, physical store, online store, Facebook/Instagram (marketing)","Website_Link":"https://bellaticacafe.com/ https://www.facebook.com/labellatica.cafe https://www.instagram.com/cafebellatica/  ","Other_Information":"Organic Coffee Tour option Phone: (506) 2645 7315 Email: cafebellatica@gmail.com"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-84.818735609999976,10.272849690000044]},"properties":{"OBJECTID":4,"Vendor":"Oldemar Salazar (as an Ambassador)","Business":null,"Type_of_Product":"coffee, embroidery work, woodwork, (jams, jellies, marmalades)","Location":"San Luis (in general)","Coordinates":"10.272849685757299, -84.81873561384748","Coordinates_X":-84.81873561384748,"Coordinates_Y":10.272849685757299,"Latitude":10.272849689999999,"Longitude":-84.818735610000004,"Selling_Status":"Depends on level of each business: tourists, locals, online, etc.","Website_Link":null,"Other_Information":null}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[-84.820278929999972,10.222784930000046]},"properties":{"OBJECTID":5,"Vendor":"Dionicio Gonzalez (not a vendor, just Ambassador)","Business":null,"Type_of_Product":"art paintings, coffee, honey, soaps, creams, perfumes","Location":"San Antonio (in general)","Coordinates":"10.222784930904504, -84.82027893068111","Coordinates_X":-84.820278930681113,"Coordinates_Y":10.222784930904504,"Latitude":10.22278493,"Longitude":-84.820278930000001,"Selling_Status":"trail hikers, locals","Website_Link":null,"Other_Information":"Dionicio involved in reforestation project (could \"buy\" a tree and get gift basket/product in return)"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[-84.81510904999999,10.184914470000024]},"properties":{"OBJECTID":6,"Vendor":"Friend of Guadalupe Jimenez","Business":null,"Type_of_Product":"All natural soaps (people and pets)","Location":"Santa Rosa","Coordinates":"10.18491446755947, -84.81510904709056","Coordinates_X":-84.815109047090559,"Coordinates_Y":10.184914467559469,"Latitude":10.184914470000001,"Longitude":-84.815109050000004,"Selling_Status":"trail hikers, locals","Website_Link":null,"Other_Information":null}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[-84.814934559999983,10.186019560000034]},"properties":{"OBJECTID":7,"Vendor":"Luis Ramirez","Business":null,"Type_of_Product":"Honey","Location":"Santa Rosa","Coordinates":"10.186019564933861, -84.81493455914325","Coordinates_X":-84.814934559143254,"Coordinates_Y":10.186019564933861,"Latitude":10.18601956,"Longitude":-84.814934559999998,"Selling_Status":"trail hikers, locals, Manza Te company","Website_Link":"https://manzate.co.cr/","Other_Information":null}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[-84.816102869999952,10.185250480000036]},"properties":{"OBJECTID":8,"Vendor":"Guadalupe Jimenez (not a vendor, just Ambassador)","Business":null,"Type_of_Product":"soaps, wooden baskets, other woodwork, wooden earrings, honey","Location":"Santa Rosa (in general)","Coordinates":"10.185250477301462, -84.81610286974706","Coordinates_X":-84.816102869747056,"Coordinates_Y":10.185250477301462,"Latitude":10.185250480000001,"Longitude":-84.816102869999995,"Selling_Status":"trail hikers, locals","Website_Link":null,"Other_Information":null}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[-84.850428249999936,10.215714600000069]},"properties":{"OBJECTID":9,"Vendor":"David Villalobos","Business":"Galeria La Mantis","Type_of_Product":"Wooden sculptures/carvings, furniture, murals","Location":"Guacimal","Coordinates":"10.215714595679598, -84.85042824607191","Coordinates_X":-84.850428246071914,"Coordinates_Y":10.215714595679598,"Latitude":10.2157146,"Longitude":-84.850428249999993,"Selling_Status":"trail hikers, locals","Website_Link":"(Instagram, Facebook, Youtibe) https://linktr.ee/artemantiscr","Other_Information":"Email: galerialamantiscr@gmail.com"}},{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-84.849986179999974,10.213876680000055]},"properties":{"OBJECTID":10,"Vendor":"David Villalobos (as an Ambassador)","Business":null,"Type_of_Product":"wood carvings, art paintings, honey","Location":"Guacimal (in general)","Coordinates":"10.213876675308942, -84.849986175936","Coordinates_X":-84.849986175935996,"Coordinates_Y":10.213876675308942,"Latitude":10.21387668,"Longitude":-84.849986180000002,"Selling_Status":"trail hikers, locals","Website_Link":null,"Other_Information":null}},{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[-84.884838459999969,10.139998840000032]},"properties":{"OBJECTID":11,"Vendor":"Gabriel Montes Morales (not a vendor, just Ambassador)","Business":null,"Type_of_Product":"cloth bags, honey, woodwork","Location":"La Colina (in general)","Coordinates":"10.139998837009907, -84.8848384554189","Coordinates_X":-84.884838455418901,"Coordinates_Y":10.139998837009907,"Latitude":10.139998840000001,"Longitude":-84.884838459999997,"Selling_Status":"trail hikers, locals","Website_Link":null,"Other_Information":null}},{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[-84.998782199999937,10.103289000000075]},"properties":{"OBJECTID":12,"Vendor":"Esther Ledezma","Business":null,"Type_of_Product":"art of upcycled material, cloth bags, clothing, jewelry, headwear, mobiles, products made of fish scales and wood","Location":"Costa de Pajaros","Coordinates":"10.103288998368425, -84.99878220390922","Coordinates_X":-84.998782203909215,"Coordinates_Y":10.103288998368425,"Latitude":10.103289,"Longitude":-84.998782199999994,"Selling_Status":"trail hikers, locals","Website_Link":"https://www.youtube.com/watch?v=2UpqQYu-m2M","Other_Information":"products made by Esther and other community members as well"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.797207039999989,
+          10.285746470000049
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Vendor": "Noe Vargas",
+        "Business": "Monteverde Natural Cosmetics",
+        "Type_of_Product": "Cosmetics (soap, shampoo, creams)",
+        "Location": "Monteverde (1 km east of Escuela Altos de San Luis Monteverde, 60109)",
+        "Coordinates": "10.285746472502385, -84.79720704449564",
+        "Coordinates_X": -84.797207044495636,
+        "Coordinates_Y": 10.285746472502385,
+        "Latitude": 10.285746469999999,
+        "Longitude": -84.797207040000004,
+        "Selling_Status": "Fully operating, physical store, online store, Amazon, Facebook/Instagram (marketing)",
+        "Website_Link": "https://monteverdebeauty.com/ https://www.facebook.com/Monteverdecosmetics/ https://www.instagram.com/monteverdecosmetics/ ",
+        "Other_Information": "Phone: (506) 2645 6344 Email: ventasmonteverdenc@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.811692969999967,
+          10.306523220000031
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Vendor": "Carla Willoughby (not a vendor, just Ambassador)",
+        "Business": null,
+        "Type_of_Product": "jewelry made of silver and macrame, clothing and other cloth stuffs by CASEM, coffee, candles, soaps, handmade Christmas ornaments, honey",
+        "Location": "Monteverde (in general)",
+        "Coordinates": "10.306523218227856, -84.81169296617576",
+        "Coordinates_X": -84.811692966175755,
+        "Coordinates_Y": 10.306523218227856,
+        "Latitude": 10.306523220000001,
+        "Longitude": -84.811692969999996,
+        "Selling_Status": "Depends on level of each business: tourists, locals, online, etc.",
+        "Website_Link": null,
+        "Other_Information": "CASEM: http://www.casemcoop.com/ "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.801787769999976,
+          10.286787790000062
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Vendor": "Oldemar Salazar",
+        "Business": "Cafe Bella Tica",
+        "Type_of_Product": "Organic coffee",
+        "Location": "San Luis (The Trail to San Luis, Puntaneras Province, Monteverde 60109)",
+        "Coordinates": "10.28678778956601, -84.80178777333138",
+        "Coordinates_X": -84.801787773331384,
+        "Coordinates_Y": 10.286787789566009,
+        "Latitude": 10.28678779,
+        "Longitude": -84.801787770000004,
+        "Selling_Status": "Fully opertating, physical store, online store, Facebook/Instagram (marketing)",
+        "Website_Link": "https://bellaticacafe.com/ https://www.facebook.com/labellatica.cafe https://www.instagram.com/cafebellatica/  ",
+        "Other_Information": "Organic Coffee Tour option Phone: (506) 2645 7315 Email: cafebellatica@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.818735609999976,
+          10.272849690000044
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Vendor": "Oldemar Salazar (as an Ambassador)",
+        "Business": null,
+        "Type_of_Product": "coffee, embroidery work, woodwork, (jams, jellies, marmalades)",
+        "Location": "San Luis (in general)",
+        "Coordinates": "10.272849685757299, -84.81873561384748",
+        "Coordinates_X": -84.81873561384748,
+        "Coordinates_Y": 10.272849685757299,
+        "Latitude": 10.272849689999999,
+        "Longitude": -84.818735610000004,
+        "Selling_Status": "Depends on level of each business: tourists, locals, online, etc.",
+        "Website_Link": null,
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.820278929999972,
+          10.222784930000046
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "Vendor": "Dionicio Gonzalez (not a vendor, just Ambassador)",
+        "Business": null,
+        "Type_of_Product": "art paintings, coffee, honey, soaps, creams, perfumes",
+        "Location": "San Antonio (in general)",
+        "Coordinates": "10.222784930904504, -84.82027893068111",
+        "Coordinates_X": -84.820278930681113,
+        "Coordinates_Y": 10.222784930904504,
+        "Latitude": 10.22278493,
+        "Longitude": -84.820278930000001,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": null,
+        "Other_Information": "Dionicio involved in reforestation project (could \"buy\" a tree and get gift basket/product in return)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.81510904999999,
+          10.184914470000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "Vendor": "Friend of Guadalupe Jimenez",
+        "Business": null,
+        "Type_of_Product": "All natural soaps (people and pets)",
+        "Location": "Santa Rosa",
+        "Coordinates": "10.18491446755947, -84.81510904709056",
+        "Coordinates_X": -84.815109047090559,
+        "Coordinates_Y": 10.184914467559469,
+        "Latitude": 10.184914470000001,
+        "Longitude": -84.815109050000004,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": null,
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.814934559999983,
+          10.186019560000034
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "Vendor": "Luis Ramirez",
+        "Business": null,
+        "Type_of_Product": "Honey",
+        "Location": "Santa Rosa",
+        "Coordinates": "10.186019564933861, -84.81493455914325",
+        "Coordinates_X": -84.814934559143254,
+        "Coordinates_Y": 10.186019564933861,
+        "Latitude": 10.18601956,
+        "Longitude": -84.814934559999998,
+        "Selling_Status": "trail hikers, locals, Manza Te company",
+        "Website_Link": "https://manzate.co.cr/",
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.816102869999952,
+          10.185250480000036
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Vendor": "Guadalupe Jimenez (not a vendor, just Ambassador)",
+        "Business": null,
+        "Type_of_Product": "soaps, wooden baskets, other woodwork, wooden earrings, honey",
+        "Location": "Santa Rosa (in general)",
+        "Coordinates": "10.185250477301462, -84.81610286974706",
+        "Coordinates_X": -84.816102869747056,
+        "Coordinates_Y": 10.185250477301462,
+        "Latitude": 10.185250480000001,
+        "Longitude": -84.816102869999995,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": null,
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.850428249999936,
+          10.215714600000069
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Vendor": "David Villalobos",
+        "Business": "Galeria La Mantis",
+        "Type_of_Product": "Wooden sculptures/carvings, furniture, murals",
+        "Location": "Guacimal",
+        "Coordinates": "10.215714595679598, -84.85042824607191",
+        "Coordinates_X": -84.850428246071914,
+        "Coordinates_Y": 10.215714595679598,
+        "Latitude": 10.2157146,
+        "Longitude": -84.850428249999993,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": "(Instagram, Facebook, Youtibe) https://linktr.ee/artemantiscr",
+        "Other_Information": "Email: galerialamantiscr@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.849986179999974,
+          10.213876680000055
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "Vendor": "David Villalobos (as an Ambassador)",
+        "Business": null,
+        "Type_of_Product": "wood carvings, art paintings, honey",
+        "Location": "Guacimal (in general)",
+        "Coordinates": "10.213876675308942, -84.849986175936",
+        "Coordinates_X": -84.849986175935996,
+        "Coordinates_Y": 10.213876675308942,
+        "Latitude": 10.21387668,
+        "Longitude": -84.849986180000002,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": null,
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.884838459999969,
+          10.139998840000032
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "Vendor": "Gabriel Montes Morales (not a vendor, just Ambassador)",
+        "Business": null,
+        "Type_of_Product": "cloth bags, honey, woodwork",
+        "Location": "La Colina (in general)",
+        "Coordinates": "10.139998837009907, -84.8848384554189",
+        "Coordinates_X": -84.884838455418901,
+        "Coordinates_Y": 10.139998837009907,
+        "Latitude": 10.139998840000001,
+        "Longitude": -84.884838459999997,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": null,
+        "Other_Information": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.998782199999937,
+          10.103289000000075
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "Vendor": "Esther Ledezma",
+        "Business": null,
+        "Type_of_Product": "art of upcycled material, cloth bags, clothing, jewelry, headwear, mobiles, products made of fish scales and wood",
+        "Location": "Costa de Pajaros",
+        "Coordinates": "10.103288998368425, -84.99878220390922",
+        "Coordinates_X": -84.998782203909215,
+        "Coordinates_Y": 10.103288998368425,
+        "Latitude": 10.103289,
+        "Longitude": -84.998782199999994,
+        "Selling_Status": "trail hikers, locals",
+        "Website_Link": "https://www.youtube.com/watch?v=2UpqQYu-m2M",
+        "Other_Information": "products made by Esther and other community members as well"
+      }
+    }
+  ]
+}
