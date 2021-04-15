@@ -1,4 +1,7 @@
 # El-Sendero-Pacifico
+
+[Learn more here](https://theahostetler.github.io/El-Sendero-Pacifico)
+
 The Atlas de Senderos is being developed as a navigational resource for recreational activities on Costa Rica's network of hiking trails as well as a means of supporting local economies that stand to benefit from traffic along these trail networks. The project was initiated in 2020 by the the <a href = “https://wtn-americas.org/”>World Trails Network Hub for the Americas</a>, with the support of Clark University student, [Andrew Hostetler](https://andrewhostetler.weebly.com). Initially conceived as a resource for a single trail network, El Sendero Pacifico, the Atlas is continuing to branch out to include the rich network of trails around Costa Rica.
 
 In order to support local communities most effectively, the project will coordinate closely with local ambassadors who have intimate knowledge of the trails and their communities. This approach is intended to produce a resource that empowers these community members to form the recreational experience along the trail as they see fit. Community members are involved in the project development in a number of ways:
