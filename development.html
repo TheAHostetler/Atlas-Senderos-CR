@@ -32,12 +32,200 @@
     </div>
   </div>
 
-  <!-- Project description -->
+  <!-- Context and Audience -->
   <div>
-    <h2>Section title</h2>
-    <p>Content goes here</p>
+    <h2>Understanding Context and Audience</h2>
+    <p> The atlas is intended for an audience of people hiking Costa Rica’s network of trails.
+      In its early stages of development, the project will be limited to a certain audience by
+      the technology and language used. With continued development the project is intended to
+      serve the complete audience of users for Costa Rica’s trail networks.
+    </p>
+    <p>In order to serve the intended community in the best way possible, it was decided that
+      the initial atlas product would be developed primarily for a spanish speaking community.
+      Trail users are presently predominantly spanish speaking and as such, this app will serve
+      them well. This choice of language also serves the local spanish speaking communities along
+      the trails. The use of spanish in early product development allows local community members
+      to easily engage with the project, understand, and contribute. We hope this relationship
+      will remain strong as the Atlas is adapted to alternative languages in future development.
+    </p>
+    <p>Though the atlas is intended for a wider audience of the Costa Rican hiking community, the
+      project’s initial contact with this audience to the form the La Alianza for el Sendero
+      Pacifico (The Alliance for the Pacific Trail) and Los Senderos de Costa Rica (The Trails
+      of Costa Rica). These are informal alliances of community members, businesses, and organizations
+      directed at supporting their regional or national trail networks. This audience contributed
+      valuable data, testing, and feedback during this current phase of development. Both groups
+      have expressed interest in continuing their involvement in the project. This collaboration
+      is critical to the project’s success as it allows local stakeholders to directly participate
+      in its development.
+    </p>
   </div>
 
+  <!-- Project Initiation -->
+  <div>
+    <h2>Project Initiation</h2>
+    <p>Prior to this project, starting in 2017 the WTN Hub for the Americas, in conjunction with
+      La Alianza por el Sendero Pacifico, has engaged students from various Universities including
+      Yale, Worcester Polytechnic Institute, and Middlebury College in work related to geographic
+      information products related to the region surround El Sendero Pacifico. These efforts resulted
+      in valuable data that has been used to study regional conservation efforts and develop maps to
+      support regional trail based recreation. Related work had been completed at the Monteverde
+      Institute starting as early as 2004. This project is a continuation of these efforts to support
+      the area with actionable geographic information.
+    </p>
+    <p>The collaboration between Clark University and the World Trails Network arose from a chance
+      meeting between mutual friends in the White Mountains of New Hampshire. An initial discussion
+      revealed the desire for, among other products, an online map detailing the trail network of El
+      Sendero Pacifico, which would include digital media such as pictures, video, and web links,
+      along with details of the trails and adjacent communities. This product had the potential to
+      be coupled with a parallel project being developed by students at Worcester Polytechnic Institute.
+      This parallel project was focused on supporting businesses in the trail-adjacent communities in a
+      move to e-commerce, in order to expand their reach regionally and potentially internationally.
+      Following this introduction and discussion of concepts, a brief onboarding period ensued during
+      which a formal working relationship was formed and resources including data and collaboration
+      platforms were shared.
+    </p>
+  </div>
+
+  <!-- Data Development -->
+  <div>
+    <h2>Data Development</h2>
+    <p>Prior to developing the desired cartographic applications, the underlying data that would describe
+      the trail network needed to be developed. That this data already existed to a great extent was a
+      great boon to the pace of the project. An earlier project that the World Trails Network had been
+      engaged in with students from Worcester State, had developed a database containing a wide range
+      of vector data related to local administration, utilities, natural features, and trail networks.
+      The data most pertinent to the project, the trail networks, was collected by students and community
+      members in years prior to the start of this project. Additional geographic data regarding the trails
+      were collected from publicly available sources including <a href=”https://www.wikiloc.com/>Wikiloc</a>.
+    </p>
+    <p>The existing trail data was available in mixed forms including both raw field data and carefully
+      edited data, but in all cases were not entirely complete. These data were aggregated and edited
+      in ArcGIS pro. Preparing these data for editing and later use included the following:
+    </p>
+    <ol>
+      <li>converting data to Esri’s proprietary Shapefile format,</li>
+      <li>converting raw ordered points from GPS data to lines,</li>
+      <li>simplifying line geometry to remove repeated segments, artefacts of gps inaccuracy, and non-trail
+         segments,</li>
+      <li>merging and splitting lines to produce logical segments between trail intersections, and</li>
+      <li>calculating line segment lengths.</li>
+    </ol>
+    <p>Following this primary editing stage a more collaborative process began between the student and
+      stakeholders familiar with the trails. This process spanned a number of weeks and involved
+      interactive sessions held over video conference where information regarding trail surface type,
+      recommended mode of travel, access restrictions, colloquial names, and other details were added
+      to the map.
+    </p>
+
+    <p>Additional contextual data was added alongside the trail data throughout development. This data
+      includes communities along El Sendero Pacifico, local high points, important reference points
+      along the trail, attractions and dangers along the trail, and relevant commercial establishments.
+      Much of this contextual data was produced by the past work of students and communities, mentioned
+      earlier, or in the collaborative process described above. In the case of information related to
+      products available in each community along El Sendero Pacifico, the data were collected in a
+      process led by WPI students in parallel to this project. Their process involved informational
+      interviews held over video conference with businesses and community members in the immediate
+      vicinity of El Sendero Pacifico.
+    </p>
+    <p>Beyond geographic data and their attributes, related visual and electronic media were gathered
+      to provide a more engaging experience for atlas users. These media include photos embedded in
+      informational popups attached to trails, communities, and other locations. These also include
+      hyperlinks to other resources online and embedded videos, currently hosted on youtube, that had
+      been produced by a previous project driven by La Alianza por el Sendero Pacifico.
+    </p>
+  </div>
+
+  <!-- Interface Development -->
+  <div>
+    <h2>Interface Development</h2>
+    <p>In its present state, the atlas is implemented in
+      <a href=”https://www.esri.com/en-us/arcgis/products/arcgis-web-appbuilder/overview”>
+        Esri’s ArcGIS Web AppBuilder</a>. This powerful web
+      mapping tool allowed for rapid, low-code development and a simple transition of data from desktop
+      editing software (<a href=”https://www.esri.com/en-us/arcgis/products/arcgis-pro”>Esri’s ArcGIS
+      Pro</a>) to a publicly accessible interface. Prior to the present interface, a number of
+      prototypes were developed using a range of programmable graphical libraries. These prototypes
+      used services including <a href=”https://www.mapbox.com/mapbox-gljs”>Mapbox GL JS</a>,
+      <a href=”https://leafletjs.com/”>Leaflet</a>, and <a href=”https://developers.arcgis.com/javascript/latest/”>
+        ArcGIS API for Javascript</a>. These intermediary product served as both
+      demonstrations of the services and means of reviewing the data that had been developed. Based
+      on observations during the interface development phase, the trail and ancillary data were
+      continuously updated to correct any mistakes or add new data.
+    </p>
+    <p><a href=”https://www.esri.com/en-us/arcgis/products/arcgis-web-appbuilder/overview”> Esri’s
+      ArcGIS Web AppBuilder</a> was ultimately chosen for full interface development due to it’s
+      ease of use, wide range of functionality, and interoperability with the data editing platform
+      used in data development. Transitioning from the data development process to interface development
+      was a simple and smooth process enabled by Portal for ArcGIS Pro. This tool in ArcGIS Pro allows
+      for quick data migration between the desktop software and ArcGIS Online. Once uploaded to ArcGIS
+      Online, the data can be displayed, styled,and modified using a wide range of online tools. If
+      changes are made to the data using desktop applications, the updated data can be easily uploaded
+      to ArcGIS Online, either overwriting the existing files or creating ones. This easy interoperability
+      was key to making it easy to manage the parallel data editing and interface development phases.
+    </p>
+    <p>With the trail and ancillary data uploaded to ArcGIS Online, ArcGIS Map Viewer Classic was used to
+      display and style these in a single map. Using Map Viewer Classic informational popup windows were
+      formatted for features in the map, display settings were adjusted including limiting visibility at
+      different zoom levels, and features were styled in a way to enhance user experience. This is also
+      where initial map extent was set and legend elements were formatted.
+    </p>
+    <p>Once the map was composed using Map Viewer Classic, it was added to an ArcGIS Web AppBuilder
+      instance. This software allows for development of the interface that surrounds the map data
+      using a graphical interface. Though no coding is necessary to use this product, there are
+      opportunities to further customize elements within it using web development languages (Hyper
+      Text Markup Language, Cascading Style Sheets, and Javascript).  In this stage of development
+      various elements in the interface were added and formatted, including the layer list, legend,
+      informational panel, basemap gallery, as well as navigational tools.
+    </p>
+    <p>Throughout the development process, supplemental information intended for the interface and map
+      elements were translated to colloquial Costa Rican Spanish. This was necessary to ensure the
+      resulting product would be understood by the primary audience at this stage of the project.
+      Though the product is intended to eventually be accessible to a wider audience of non-Spanish
+      language speakers, this initial development values local community engagement more highly than
+      global accessibility. A number of community members contributed to the translations that have
+      been used in the present version of the Atlas.
+    </p>
+  </div>
+
+  <!-- Basemap Design -->
+  <div>
+    <h2>Basemap Design</h2>
+    <p>Due to the focused nature of this web map, a custom basemap was necessary to minimize distraction
+      from the map’s intended content and maximize relevant ancillary content. This basemap was developed
+      using Mapbox Studio. This web-based software comes readily available with basemap templates and a
+      wealth of global data layers including points of interest, terrain models, road lines, building
+      footprints, administrative boundaries, land cover and use types, and satellite imagery. Using the
+      graphical interface each of these layers display and style properties can be customized as well as
+      adding or removing layers. In this way, a number of adjustments were made to the existing “Outdoors”
+      basemap template to produce the custom basemap currently on display in the atlas.
+    </p>
+    <ul>
+      <li><b>Points of Interest:</b> In order to avoid conflict with points of interest submitted by
+        community members the existing layer depicting points of interest.
+      </li>
+      <li><b>Topographic Contour lines:</b> The intervals between topographic contour lines were reduced
+        to increase visibility in Costa Rica’s limited altitudinal variation.
+      </li>
+      <li><b>Country Mask:</b> To focus attention on the area of interest, a semi-opaque mask was added
+        to all countries other than Costa Rica.
+      </li>
+      <li><b>National Protected Areas:</b> The existing layer of protected areas was removed and replaced
+        with a modified version that accounted for recent changes reported by
+        <a href=”http://www.sinac.go.cr/EN-US/conozca/Pages/default.aspx”>SINAC (National System of Conservation Areas)</a>
+      </li>
+      <li><b>Reforestation Areas:</b> Areas currently under private conservation and reforestation within
+        the region of El Sendero Pacifico was developed from WTN data layers and added to the basemap.
+      </li>
+      <li><b>Municipalities:</b> With the intention of focusing attention on municipalities related to the
+        trails displayed, the existing layer of municipal areas was removed. Points of municipalities were
+        added to the map in ArcGIS instead of via the basemap in Mapbox Studio.
+      </li>
+      <li><b>Trails:</b> Though the basemap template contains a very detailed layer of trails and paths, many
+        of which are depicted in the Atlas, they are not required for the purposes of our basemap. The
+        existing trails layer was removed from the basemap.
+      </li>
+    </ul>
+  </div>
 
   <!-- Page footer for buttons and other details -->
   <footer>
